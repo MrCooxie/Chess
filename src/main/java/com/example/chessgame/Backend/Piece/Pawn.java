@@ -6,10 +6,15 @@ import com.example.chessgame.Backend.MoveStrategy.NormalPawnMoveStrategy;
 
 import java.util.ArrayList;
 
-public class Pawn extends Piece{
+public class Pawn extends Piece {
 
-    public Pawn(PieceColor pieceColor, int row, int col ){
-        super(pieceColor,PieceType.PAWN, row,col);
+    public Pawn(PieceColor pieceColor, int row, int col) {
+        super(pieceColor, PieceType.PAWN, row, col);
+    }
+
+    @Override
+    public boolean move(int rowToMoveTo, int colToMoveTo, ChessBoard chessBoard) {
+        return move(rowToMoveTo,colToMoveTo,chessBoard,this);
     }
 
     @Override

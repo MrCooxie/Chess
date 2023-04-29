@@ -12,6 +12,7 @@ public abstract class Strategy {
     protected final Piece[][] chessBoard;
     protected final PieceColor pieceColor;
     protected PieceColor turn;
+
     public Strategy(ChessBoard chessBoard, Piece piece) {
         this.chessBoard = chessBoard.getChessBoard();
         turn = chessBoard.getTurn();
@@ -21,13 +22,16 @@ public abstract class Strategy {
     }
 
     public abstract ArrayList<Move> getAllPossibleMoves();
-    protected boolean isEmpty(Piece piece){
+
+    protected boolean isEmpty(Piece piece) {
         return piece == null;
     }
-    protected  boolean isOppositeColor(Piece piece){
+
+    protected boolean isOppositeColor(Piece piece) {
         return !piece.getPieceColor().equals(pieceColor);
     }
-    protected boolean isInChessBoard(int row, int col){
+
+    protected boolean isInChessBoard(int row, int col) {
         return !(row < 0 || row > 7 || col < 0 || col > 7);
     }
 }

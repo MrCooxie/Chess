@@ -1,13 +1,16 @@
 package com.example.chessgame.Frontend;
 
 import com.example.chessgame.Backend.ChessBoard;
-import com.example.chessgame.Backend.MoveStrategy.Move;
 import com.example.chessgame.Backend.Piece.Piece;
 
-import java.util.ArrayList;
 
 public class Test {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+        ChessBoard chessboard = new ChessBoard();
+        Piece piece = chessboard.getChessBoard()[6][4];
+        System.out.println(piece.move(5,4,chessboard));
+        chessboard.printChessBoard();
+
 
     }
 }

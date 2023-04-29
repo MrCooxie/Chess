@@ -6,9 +6,15 @@ import com.example.chessgame.Backend.MoveStrategy.NormalKnightMoveStrategy;
 
 import java.util.ArrayList;
 
-public class Knight extends Piece{
-    public Knight(PieceColor pieceColor, int row, int col){
-        super(pieceColor, PieceType.KNIGHT,row,col);
+public class Knight extends Piece {
+    public Knight(PieceColor pieceColor, int row, int col) {
+        super(pieceColor, PieceType.KNIGHT, row, col);
+    }
+
+    @Override
+    public boolean move(int rowToMoveTo, int colToMoveTo, ChessBoard chessBoard) {
+        return move(rowToMoveTo,colToMoveTo,chessBoard,this);
+
     }
 
     @Override
