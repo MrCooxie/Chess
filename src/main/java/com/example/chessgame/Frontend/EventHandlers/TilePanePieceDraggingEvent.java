@@ -1,3 +1,4 @@
+/*
 package com.example.chessgame.Frontend.EventHandlers;
 import com.example.chessgame.Backend.ChessBoard;
 import com.example.chessgame.Backend.ChessPiece;
@@ -193,3 +194,4 @@ public class TilePanePieceDraggingEvent {
         return new int[]{(int) y/112, (int) x / 112};
     }
 }
+*/

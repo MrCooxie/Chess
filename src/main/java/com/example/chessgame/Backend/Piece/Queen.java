@@ -1,6 +1,8 @@
 package com.example.chessgame.Backend.Piece;
 
 import com.example.chessgame.Backend.ChessBoard;
+import com.example.chessgame.Backend.MoveStrategy.Move;
+import com.example.chessgame.Backend.MoveStrategy.NormalQueenMoveStrategy;
 
 import java.util.ArrayList;
 
@@ -9,7 +11,7 @@ public class Queen extends Piece{
         super(pieceColor, PieceType.QUEEN,row,col);
     }
     @Override
-    public ArrayList<int[]> getAllPossibleMoves(ChessBoard chessBoard) {
-        return null;
+    public ArrayList<Move> getAllPossibleMoves(ChessBoard chessBoard) {
+        return new NormalQueenMoveStrategy(chessBoard, chessBoard.getChessBoard()[row][col]).getAllPossibleMoves();
     }
 }

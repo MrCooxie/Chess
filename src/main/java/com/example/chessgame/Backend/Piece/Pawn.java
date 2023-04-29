@@ -14,7 +14,6 @@ public class Pawn extends Piece{
 
     @Override
     public ArrayList<Move> getAllPossibleMoves(ChessBoard chessBoard) {
-        ArrayList< Move> allPossibleMoves = new NormalPawnMoveStrategy(chessBoard, chessBoard.getChessBoard()[row][col]).getAllPossibleMoves();
-        return allPossibleMoves;
+        return new NormalPawnMoveStrategy(chessBoard, chessBoard.getChessBoard()[row][col]).getAllPossibleMoves();
     }
 }

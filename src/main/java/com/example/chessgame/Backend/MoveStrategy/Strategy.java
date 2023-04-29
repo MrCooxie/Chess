@@ -27,4 +27,7 @@ public abstract class Strategy {
     protected  boolean isOppositeColor(Piece piece){
         return !piece.getPieceColor().equals(pieceColor);
     }
+    protected boolean isInChessBoard(int row, int col){
+        return !(row < 0 || row > 7 || col < 0 || col > 7);
+    }
 }

@@ -1,3 +1,4 @@
+/*
 package com.example.chessgame.Frontend;
 
 import com.example.chessgame.Frontend.EventHandlers.TilePanePieceDraggingEvent;
@@ -125,3 +126,4 @@ public class GraphicalChessBoard {
 
 
 }
+*/
