@@ -29,12 +29,12 @@ public class NormalRookMoveStrategy extends Strategy {
         if (!blockingPieces[blockingPiecesIndex]) {
             if (isInChessBoard(rowToCheck, colToCheck)) {
                 Piece temp = chessBoard[rowToCheck][colToCheck];
-                if (isEmpty(temp)) {
-                    allPossibleMoves.add(new Move(temp.getRow(), temp.getCol()));
-                } else if (isOppositeColor(temp)) {
+                if (isEmpty(temp)) allPossibleMoves.add(new Move(temp.getRow(), temp.getCol()));
+                if (!isEmpty(temp) && isOppositeColor(temp)) {
                     allPossibleMoves.add(new Move(temp.getRow(), temp.getCol()));
                     blockingPieces[blockingPiecesIndex] = true;
-                } else {
+                }
+                if (!isEmpty(temp) && !isOppositeColor(temp)) {
                     blockingPieces[blockingPiecesIndex] = true;
                 }
             } else {
