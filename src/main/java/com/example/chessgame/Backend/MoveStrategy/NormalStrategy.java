@@ -24,6 +24,7 @@ public abstract class NormalStrategy {
     public abstract ArrayList<Move> getAllPossibleMoves();
 
     protected ArrayList<Move> getAllPossibleMoves(int topLeftAmount, int topAmount, int topRightAmount, int midLeftAmount, int midRightAmount, int botLeftAmount, int botAmount, int botRightAmount) {
+        //System.out.printf("%d, %d, %d, %d, %d, %d, %d, %d\n",topLeftAmount,topAmount,topRightAmount,midLeftAmount,midRightAmount,botLeftAmount,botAmount,botRightAmount);
         boolean[] blockingPieces = new boolean[]{false, false, false, false, false, false, false, false};
         ArrayList<Move> allPossibleMoves = new ArrayList<>();
         for (int i = 1; i < topLeftAmount + 1; i++) { //Top Left

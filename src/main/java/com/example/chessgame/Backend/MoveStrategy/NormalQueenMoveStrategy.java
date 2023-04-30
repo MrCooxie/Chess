@@ -14,10 +14,13 @@ public class NormalQueenMoveStrategy extends NormalStrategy {
 
     @Override
     public ArrayList<Move> getAllPossibleMoves() {
-        int squaresToGoUp = row;
-        int squaresToGoDown = 7 - row;
-        int squaresToGoLeft = col;
-        int squaresToGoRight = 7 - col;
-        return getAllPossibleMoves(Math.min(squaresToGoUp, squaresToGoLeft), squaresToGoUp, Math.min(squaresToGoUp, squaresToGoRight), squaresToGoLeft, squaresToGoRight, Math.min(squaresToGoDown, squaresToGoLeft), squaresToGoDown, Math.min(squaresToGoDown, squaresToGoRight));
+        if(turn.equals(pieceColor)) {
+            int squaresToGoUp = row;
+            int squaresToGoDown = 7 - row;
+            int squaresToGoLeft = col;
+            int squaresToGoRight = 7 - col;
+            return getAllPossibleMoves(Math.min(squaresToGoUp, squaresToGoLeft), squaresToGoUp, Math.min(squaresToGoUp, squaresToGoRight), squaresToGoLeft, squaresToGoRight, Math.min(squaresToGoDown, squaresToGoLeft), squaresToGoDown, Math.min(squaresToGoDown, squaresToGoRight));
+        }
+        return new ArrayList<>();
     }
 }

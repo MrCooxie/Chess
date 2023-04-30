@@ -12,11 +12,14 @@ public class NormalRookMoveStrategy extends NormalStrategy {
 
     @Override
     public ArrayList<Move> getAllPossibleMoves() {
-        int squaresToGoUp = row;
-        int squaresToGoDown = 7 - row;
-        int squaresToGoLeft = col;
-        int squaresToGoRight = 7 - col;
-        return getAllPossibleMoves(0, squaresToGoUp, 0, squaresToGoLeft, squaresToGoRight, 0, squaresToGoDown, 0);
+        if(turn.equals(pieceColor)) {
+            int squaresToGoUp = row;
+            int squaresToGoDown = 7 - row;
+            int squaresToGoLeft = col;
+            int squaresToGoRight = 7 - col;
+            return getAllPossibleMoves(0, squaresToGoUp, 0, squaresToGoLeft, squaresToGoRight, 0, squaresToGoDown, 0);
 
+        }
+        return new ArrayList<>();
     }
 }

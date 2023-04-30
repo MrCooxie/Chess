@@ -2,6 +2,9 @@ package com.example.chessgame.Frontend;
 
 import com.example.chessgame.Backend.ChessBoard;
 import com.example.chessgame.Backend.GameMode;
+import com.example.chessgame.Backend.MoveStrategy.Move;
+
+import java.util.ArrayList;
 
 
 public class Test {
@@ -10,9 +13,9 @@ public class Test {
         chessboard.printChessBoard();
         chessboard.move(6, 4, 5, 4);
         chessboard.printChessBoard();
-        System.out.println(chessboard.getChessBoard()[0][1]);
-        chessboard.move(0, 1, 2, 2);
-        chessboard.printChessBoard();
-
+        ArrayList<Move> allPossibleMoves = chessboard.getChessBoard()[6][3].getAllPossibleMoves();
+        for(Move move : allPossibleMoves){
+            System.out.println(move.row() + " " + move.col());
+        }
     }
 }

@@ -42,8 +42,8 @@ public class ChessBoard {
         return chessBoard;
     }
 
-    public void move(int rowOfPieceToMove, int colOfPieceToMove, int rowToMoveTo, int colToMoveTo) {
-        chessBoard[rowOfPieceToMove][colOfPieceToMove].move(rowToMoveTo, colToMoveTo);
+    public boolean move(int rowOfPieceToMove, int colOfPieceToMove, int rowToMoveTo, int colToMoveTo) {
+        return chessBoard[rowOfPieceToMove][colOfPieceToMove].move(rowToMoveTo, colToMoveTo);
     }
 
     public PieceColor getTurn() {

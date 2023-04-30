@@ -18,6 +18,7 @@ public class ChessBoardMovingLogic {
     private final StackPane root;
 
     private final Position posOfPressedEvent = new Position();
+    private final Position posOfReleasedEvent = new Position();
     private final int sizeOfSquare;
 
 
@@ -46,23 +47,68 @@ public class ChessBoardMovingLogic {
     public void onMousePressedEvent(MouseEvent mouseEvent) {
         if (isRightButtonPressed(mouseEvent)) {
             Piece piece = getPieceAtLoc(mouseEvent.getX(), mouseEvent.getY());
+           /* System.out.println(piece);
+            for(Move move : piece.getAllPossibleMoves()) {
+                System.out.println(move.row() + " " + move.col());
+            }*/
             if (piece != null) {
                 posOfPressedEvent.setX(mouseEvent.getX());
                 posOfPressedEvent.setY(mouseEvent.getY());
                 posOfPressedEvent.setRow(piece.getRow());
                 posOfPressedEvent.setCol(piece.getCol());
-                showHints(piece.getAllPossibleMoves());
+                addHints(piece.getAllPossibleMoves());
             }
         }
     }
 
-    private void showHints(ArrayList<Move> placesToAddHint) {
+    public void onMouseReleasedEvent(MouseEvent mouseEvent) {
+        if (isRightButtonPressed(mouseEvent)) {
+            if (posOfPressedEvent.getX() != -1 && posOfPressedEvent.getY() != -1) {
+
+                posOfReleasedEvent.setX(mouseEvent.getX());
+                posOfReleasedEvent.setY(mouseEvent.getY());
+                posOfReleasedEvent.setRow((int) mouseEvent.getY() / 112);
+                posOfReleasedEvent.setCol((int) mouseEvent.getX() / 112);
+
+                Piece pieceOnPressed = chessBoard.getChessBoard()[posOfPressedEvent.getRow()][posOfPressedEvent.getCol()];
+
+                boolean legalMove = chessBoard.move(pieceOnPressed.getRow(), pieceOnPressed.getCol(), posOfReleasedEvent.getRow(), posOfReleasedEvent.getCol());
+                ImageView imageOfPiece = removeImageFromRoot();
+                if (imageOfPiece != null) {
+                    if (legalMove) {
+                        removeImageFromTile(posOfReleasedEvent.getRow(), posOfReleasedEvent.getCol());
+                        addImageToTile(posOfReleasedEvent.getRow(), posOfReleasedEvent.getCol(), imageOfPiece);
+                        removeHints();
+                    } else {
+                        addImageToTile(posOfPressedEvent.getRow(), posOfPressedEvent.getCol(), imageOfPiece);
+                    }
+                }
+            }
+        }
+    }
+    private void removeHints(){
+        // Bad performance because checking every tile if it contains hints ._. In the future I will implement a better solution
+        TilePane tilePane = (TilePane) root.getChildren().get(0);
+        for(int i = 0; i < tilePane.getChildren().size();i++){
+            StackPane square = (StackPane) tilePane.getChildren().get(i);
+            for(int j = 0; j < square.getChildren().size();j++){
+                if(square.getChildren().get(j) instanceof Circle){
+                    square.getChildren().remove(j);
+                    break;
+                }
+            }
+        }
+    }
+
+    private void addHints(ArrayList<Move> placesToAddHint) {
+        // Bad performance but checking every tile if it contains hints ._.
+        removeHints();
+
         for (Move move : placesToAddHint) {
             //Expects that Tile Pane is at 0 index, must fix if I decide to remove the entire Tile Pane from root for some reason
             ((StackPane) ((TilePane) root.getChildren().get(0)).getChildren().get(getLocOfItemInTilePane(move.row(), move.col()))).getChildren().add(new Circle(18.5, Color.rgb(0, 0, 0, 0.1)));
         }
     }
-
     private Piece getPieceAtLoc(double x, double y) {
         //Returns null if there is no piece at that position
         int row = (int) (y / 112);
@@ -94,5 +140,31 @@ public class ChessBoardMovingLogic {
     private void modifyImage(double x, double y, ImageView imageView) {
         imageView.setTranslateX(x - 4 * sizeOfSquare);
         imageView.setTranslateY(y - 4 * sizeOfSquare);
+    }
+
+    private ImageView removeImageFromTile(int row, int col) {
+        StackPane stackPane = ((StackPane) ((TilePane) root.getChildren().get(0)).getChildren().get(getLocOfItemInTilePane(row, col)));
+        for (int i = 0; i < stackPane.getChildren().size(); i++) {
+            if (stackPane.getChildren().get(i) instanceof ImageView imageView) {
+                stackPane.getChildren().remove(i);
+                return imageView;
+            }
+        }
+        return null;
+    }
+
+    private ImageView removeImageFromRoot() {
+        try {
+            ImageView imageView = new ImageView(((ImageView) root.getChildren().get(1)).getImage());
+            root.getChildren().remove(1);
+            return imageView;
+        } catch (IndexOutOfBoundsException e){
+            //Root doesn't contain imageview
+            return null;
+        }
+    }
+
+    private void addImageToTile(int row, int col, ImageView imageView) {
+        ((StackPane) ((TilePane) root.getChildren().get(0)).getChildren().get(getLocOfItemInTilePane(row, col))).getChildren().add(imageView);
     }
 }

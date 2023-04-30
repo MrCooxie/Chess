@@ -9,8 +9,8 @@ import java.util.ArrayList;
 public abstract class Piece {
     protected final PieceColor pieceColor;
     protected final PieceType pieceType;
-    protected final int row;
-    protected final int col;
+    protected int row;
+    protected int col;
     protected final GameMode gameMode;
     protected final ChessBoard chessBoard;
 
@@ -32,6 +32,8 @@ public abstract class Piece {
                 chessBoard.getChessBoard()[row][col] = null;
                 chessBoard.getChessBoard()[rowToMoveTo][colToMoveTo] = piece;
                 chessBoard.nextTurn();
+                piece.setRow(rowToMoveTo);
+                piece.setCol(colToMoveTo);
                 return true;
             }
         }
@@ -78,5 +80,13 @@ public abstract class Piece {
             }
         }
         return "-";
+    }
+
+    public void setRow(int row) {
+        this.row = row;
+    }
+
+    public void setCol(int col) {
+        this.col = col;
     }
 }

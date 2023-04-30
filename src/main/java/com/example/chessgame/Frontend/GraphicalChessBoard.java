@@ -129,6 +129,7 @@ public class GraphicalChessBoard {
         ChessBoardMovingLogic events = new ChessBoardMovingLogic(chessBoard, root, sizeOfSquare);
         root.setOnMousePressed(events::onMousePressedEvent);
         root.setOnMouseDragged(events::onMouseDraggedEvent);
+        root.setOnMouseReleased(events::onMouseReleasedEvent);
     }
 
 }

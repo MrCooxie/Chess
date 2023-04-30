@@ -13,6 +13,6 @@ public class NormalKingMoveStrategy extends NormalStrategy {
     @Override
     public ArrayList<Move> getAllPossibleMoves() {
         //TODO implement castle rights
-        return getAllPossibleMoves(1, 1, 1, 1, 1, 1, 1, 1);
+        return (turn.equals(pieceColor)) ? getAllPossibleMoves(1, 1, 1, 1, 1, 1, 1, 1) : new ArrayList<>();
     }
 }

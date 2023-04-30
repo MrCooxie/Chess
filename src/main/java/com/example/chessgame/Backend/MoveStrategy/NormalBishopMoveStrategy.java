@@ -12,12 +12,13 @@ public class NormalBishopMoveStrategy extends NormalStrategy {
 
     @Override
     public ArrayList<Move> getAllPossibleMoves() {
-        int squaresToGoUp = row;
-        int squaresToGoDown = 7 - row;
-        int squaresToGoLeft = col;
-        int squaresToGoRight = 7 - col;
-        return getAllPossibleMoves(Math.min(squaresToGoUp, squaresToGoLeft), 0, Math.min(squaresToGoUp, squaresToGoRight), 0, 0, Math.min(squaresToGoDown, squaresToGoLeft), 0, Math.min(squaresToGoDown, squaresToGoRight));
-
-
+        if(turn.equals(pieceColor)) {
+            int squaresToGoUp = row;
+            int squaresToGoDown = 7 - row;
+            int squaresToGoLeft = col;
+            int squaresToGoRight = 7 - col;
+            return getAllPossibleMoves(Math.min(squaresToGoUp, squaresToGoLeft), 0, Math.min(squaresToGoUp, squaresToGoRight), 0, 0, Math.min(squaresToGoDown, squaresToGoLeft), 0, Math.min(squaresToGoDown, squaresToGoRight));
+        }
+        return new ArrayList<>();
     }
 }
