@@ -1,3 +1,4 @@
+/*
 package com.example.chessgame.Frontend.EventHandlers;
 
 import com.example.chessgame.Backend.ChessBoard;
@@ -47,10 +48,12 @@ public class ChessBoardMovingLogic {
     public void onMousePressedEvent(MouseEvent mouseEvent) {
         if (isRightButtonPressed(mouseEvent)) {
             Piece piece = getPieceAtLoc(mouseEvent.getX(), mouseEvent.getY());
-           /* System.out.println(piece);
+           */
+/* System.out.println(piece);
             for(Move move : piece.getAllPossibleMoves()) {
                 System.out.println(move.row() + " " + move.col());
-            }*/
+            }*//*
+
             if (piece != null) {
                 posOfPressedEvent.setX(mouseEvent.getX());
                 posOfPressedEvent.setY(mouseEvent.getY());
@@ -168,3 +171,4 @@ public class ChessBoardMovingLogic {
         ((StackPane) ((TilePane) root.getChildren().get(0)).getChildren().get(getLocOfItemInTilePane(row, col))).getChildren().add(imageView);
     }
 }
+*/

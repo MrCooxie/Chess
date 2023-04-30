@@ -1,3 +1,4 @@
+/*
 package com.example.chessgame.Backend.MoveStrategy;
 
 import com.example.chessgame.Backend.ChessBoard;
@@ -24,3 +25,4 @@ public class NormalQueenMoveStrategy extends NormalStrategy {
         return new ArrayList<>();
     }
 }
+*/

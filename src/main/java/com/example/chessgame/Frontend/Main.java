@@ -1,3 +1,4 @@
+/*
 
 package com.example.chessgame.Frontend;
 
@@ -21,3 +22,4 @@ public class Main extends Application {
         launch();
     }
 }
+*/

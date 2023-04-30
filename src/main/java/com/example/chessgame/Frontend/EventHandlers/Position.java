@@ -1,3 +1,4 @@
+/*
 package com.example.chessgame.Frontend.EventHandlers;
 
 
@@ -50,3 +51,4 @@ public class Position {
         this.col = col;
     }
 }
+*/

@@ -1,5 +1,9 @@
+/*
 package com.example.chessgame.Backend.MoveStrategy;
 
+import Test.Backend.ChessBoard;
+import Test.Backend.Piece.Piece;
+import Test.Backend.Piece.PieceColor;
 import com.example.chessgame.Backend.ChessBoard;
 import com.example.chessgame.Backend.Piece.Piece;
 import com.example.chessgame.Backend.Piece.PieceColor;
@@ -56,7 +60,7 @@ public abstract class NormalStrategy {
 
     private ArrayList<Move> getMovesOnAngle(int rowIncrease, int colIncrease, boolean[] blockingPieces, int blockingPiecesIndex) {
         ArrayList<Move> allPossibleMoves = new ArrayList<>();
-        if (!blockingPieces[blockingPiecesIndex]) {
+        if (!blockingPieces[blockingPiecesIndex] && isInChessBoard(row + rowIncrease, col + colIncrease)) {
             int rowToCheck = row + rowIncrease;
             int colToCheck = col + colIncrease;
             if (isEmpty(chessBoard[rowToCheck][colToCheck])) {
@@ -87,3 +91,4 @@ public abstract class NormalStrategy {
         return (isInChessBoard(row, col) && !isEmpty(chessBoard[row][col]) && isOppositeColor(chessBoard[row][col]));
     }
 }
+*/
