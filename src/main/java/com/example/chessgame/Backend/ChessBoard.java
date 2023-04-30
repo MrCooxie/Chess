@@ -3,7 +3,12 @@ package com.example.chessgame.Backend;
 import com.example.chessgame.Backend.Piece.*;
 
 public class ChessBoard {
-    private final Piece[][] chessBoard = createChessBoard();
+    private final GameMode gameMode;
+    private final Piece[][] chessBoard;
+    public ChessBoard(GameMode gameMode){
+        this.gameMode = gameMode;
+        chessBoard = createChessBoard();
+    }
     private PieceColor turn = PieceColor.WHITE;
 
     private Piece[][] createChessBoard() {
@@ -14,14 +19,14 @@ public class ChessBoard {
                     PieceColor color = (row < 2) ? PieceColor.BLACK : PieceColor.WHITE;
                     if (row == 0 || row == 7) {
                         switch (col) {
-                            case 0, 7 -> methodChessBoard[row][col] = new Rook(color, row, col);
-                            case 1, 6 -> methodChessBoard[row][col] = new Knight(color, row, col);
-                            case 2, 5 -> methodChessBoard[row][col] = new Bishop(color, row, col);
-                            case 3 -> methodChessBoard[row][col] = new Queen(color, row, col);
-                            case 4 -> methodChessBoard[row][col] = new King(color, row, col);
+                            case 0, 7 -> methodChessBoard[row][col] = new Rook(color, row, col,gameMode, this);
+                            case 1, 6 -> methodChessBoard[row][col] = new Knight(color, row, col,gameMode, this);
+                            case 2, 5 -> methodChessBoard[row][col] = new Bishop(color, row, col,gameMode,this);
+                            case 3 -> methodChessBoard[row][col] = new Queen(color, row, col,gameMode, this);
+                            case 4 -> methodChessBoard[row][col] = new King(color, row, col,gameMode, this);
                         }
                     } else {
-                        methodChessBoard[row][col] = new Pawn(color, row, col);
+                        methodChessBoard[row][col] = new Pawn(color, row, col, gameMode, this);
                     }
                 } else {
                     methodChessBoard[row][col] = null;
@@ -36,7 +41,7 @@ public class ChessBoard {
     }
 
     public void move(int rowOfPieceToMove, int colOfPieceToMove, int rowToMoveTo, int colToMoveTo) {
-        chessBoard[rowOfPieceToMove][colOfPieceToMove].move(rowToMoveTo, colToMoveTo, this);
+        chessBoard[rowOfPieceToMove][colOfPieceToMove].move(rowToMoveTo, colToMoveTo);
     }
 
     public PieceColor getTurn() {
@@ -58,5 +63,6 @@ public class ChessBoard {
             }
             System.out.println(" ]");
         }
+        System.out.println();
     }
 }

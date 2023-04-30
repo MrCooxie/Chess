@@ -2,11 +2,11 @@
 
 I have created a class ChessBoard in there I have a method called createChessBoard() this basically creates a 8x8 board and puts Pieces on it. 
 Every piece on that board is of type Piece. There are many pieces that extend Piece for example: Pawn, Bishop, Knight, Rook, Queen, King. 
-Each of these pieces have an method getAllPossibleMoves and move. 
+Each of these pieces have methods ``getAllPossibleMoves()`` and ``move()``. 
 
-The Method getAllPossibleMoves returns all of the possible moves that piece can make taking, taking in surroundings and position. Each piece has its own way of moving 
-and that also varies on different chess game modes. For that I have created a parent class called Strategy. Then I have created all of the different strategies, how a 
-piece can move. 
+The Method getAllPossibleMoves returns all of the possible moves that piece can make, taking in surroundings and position. Each piece has its own way of moving 
+and that also varies on different chess game modes. For that I have created a bunch of Strategies. At the moment I have only one Strategy called NormalStrategy. 
+Then I have created all of the different strategies, how a piece can move.
 
 Then the method move takes in the place to move. This first checks if the move is legal, if it is illegal, then it returns false and doesn't do anything. If the move is 
 legal, needed changes get done in the chess board and true is returned. 
@@ -14,10 +14,10 @@ legal, needed changes get done in the chess board and true is returned.
 What you can do in test class is create a new instance 
 
 ```java
-ChessBoard chessBoard = new ChessBoard();
+ChessBoard chessBoard = new ChessBoard(ChessMode.NORMAL);
 ```
 
-This creates a new instance of chessBoard.
+This creates a new instance of chessBoard and tells that all of the move strategies are for normal chess game
 
 then you can print the chessBoard using
 
@@ -25,7 +25,7 @@ then you can print the chessBoard using
 chessBoard.printChessBoard();
 ```
 
-You can also get all of the possibleMoves of an piece doing something like this:
+You can also get all of the possibleMoves of a piece doing something like this:
 
 ```java
 chessBoard.getChessBoard()[row][col].getAllPossibleMoves();
@@ -43,4 +43,4 @@ This moves the piece up by one square on loc (6;4)
 
 And now if you print the board you get the updated board
 
-Also if the moves is illegal then no changes will be done to the board.
+If the move is illegal then no changes will be done to the board.

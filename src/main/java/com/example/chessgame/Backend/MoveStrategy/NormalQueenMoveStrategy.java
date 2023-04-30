@@ -5,20 +5,19 @@ import com.example.chessgame.Backend.Piece.Piece;
 
 import java.util.ArrayList;
 
-public class NormalQueenMoveStrategy extends Strategy {
-    private final ChessBoard chessBoardClass;
-    private final Piece piece;
+public class NormalQueenMoveStrategy extends NormalStrategy {
+
 
     public NormalQueenMoveStrategy(ChessBoard chessBoard, Piece piece) {
         super(chessBoard, piece);
-        chessBoardClass = chessBoard;
-        this.piece = piece;
     }
 
     @Override
     public ArrayList<Move> getAllPossibleMoves() {
-        ArrayList<Move> allPossibleMoves = new NormalRookMoveStrategy(chessBoardClass, piece).getAllPossibleMoves();
-        allPossibleMoves.addAll(new NormalBishopMoveStrategy(chessBoardClass, piece).getAllPossibleMoves());
-        return allPossibleMoves;
+        int squaresToGoUp = row;
+        int squaresToGoDown = 7 - row;
+        int squaresToGoLeft = col;
+        int squaresToGoRight = 7 - col;
+        return getAllPossibleMoves(Math.min(squaresToGoUp,squaresToGoLeft),squaresToGoUp,Math.min(squaresToGoUp,squaresToGoRight),squaresToGoLeft,squaresToGoRight,Math.min(squaresToGoDown,squaresToGoLeft),squaresToGoDown,Math.min(squaresToGoDown,squaresToGoRight));
     }
 }
