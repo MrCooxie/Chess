@@ -60,7 +60,7 @@ public abstract class NormalStrategy {
             int colToCheck = col + colIncrease;
             if (isEmpty(chessBoard[rowToCheck][colToCheck])) {
                 allPossibleMoves.add(new Move(rowToCheck, colToCheck));
-            } else if (isLegalMove(rowToCheck,colToCheck)) {
+            } else if (isLegalMove(rowToCheck, colToCheck)) {
                 allPossibleMoves.add(new Move(rowToCheck, colToCheck));
                 blockingPieces[blockingPiecesIndex] = true;
             } else {
@@ -81,7 +81,8 @@ public abstract class NormalStrategy {
     protected boolean isInChessBoard(int row, int col) {
         return !(row < 0 || row > 7 || col < 0 || col > 7);
     }
-    protected boolean isLegalMove(int row, int col){
-        return (isInChessBoard(row,col) && !isEmpty(chessBoard[row][col]) && isOppositeColor(chessBoard[row][col]));
+
+    protected boolean isLegalMove(int row, int col) {
+        return (isInChessBoard(row, col) && !isEmpty(chessBoard[row][col]) && isOppositeColor(chessBoard[row][col]));
     }
 }

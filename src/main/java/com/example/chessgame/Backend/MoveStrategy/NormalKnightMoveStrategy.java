@@ -22,7 +22,7 @@ public class NormalKnightMoveStrategy extends NormalStrategy {
                     new Move(row + 1, col + 2), new Move(row - 1, col + 2)
             };
             for (Move move : moves) {
-                if (isLegalMove(move.row(),move.col()) || (isInChessBoard(move.row(),move.col()) && isEmpty(chessBoard[move.row()][move.col()]))) {
+                if (isLegalMove(move.row(), move.col()) || (isInChessBoard(move.row(), move.col()) && isEmpty(chessBoard[move.row()][move.col()]))) {
                     allPossibleMoves.add(move);
                 }
             }

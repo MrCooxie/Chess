@@ -15,14 +15,14 @@ public class Pawn extends Piece {
 
     @Override
     public boolean move(int rowToMoveTo, int colToMoveTo) {
-        return move(rowToMoveTo,colToMoveTo, this);
+        return move(rowToMoveTo, colToMoveTo, this);
     }
 
     @Override
     public ArrayList<Move> getAllPossibleMoves() {
         switch (gameMode) {
             case NORMAL -> {
-                return new NormalPawnMoveStrategy(chessBoard,this).getAllPossibleMoves();
+                return new NormalPawnMoveStrategy(chessBoard, this).getAllPossibleMoves();
             }
             default -> {
                 return null;

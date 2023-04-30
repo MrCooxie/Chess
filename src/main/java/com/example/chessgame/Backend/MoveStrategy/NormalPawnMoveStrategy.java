@@ -20,8 +20,9 @@ public class NormalPawnMoveStrategy extends NormalStrategy {
         int howMuchRightDiagonal = 0;
         int howMuchLeftDiagonal = 0;
 
-        if (pieceColor.equals(PieceColor.WHITE) && row == 6 || (pieceColor.equals(PieceColor.BLACK)) && row == 2) howMuchMoveUp = 2;
-        if (!isEmpty(chessBoard[row + increment][col + 1]) && isOppositeColor(chessBoard[row +increment][col +1])){
+        if (pieceColor.equals(PieceColor.WHITE) && row == 6 || (pieceColor.equals(PieceColor.BLACK)) && row == 2)
+            howMuchMoveUp = 2;
+        if (!isEmpty(chessBoard[row + increment][col + 1]) && isOppositeColor(chessBoard[row + increment][col + 1])) {
             howMuchRightDiagonal = 1;
         }
         if (!isEmpty(chessBoard[row + increment][col - 1]) && isOppositeColor(chessBoard[row + increment][col - 1])) {

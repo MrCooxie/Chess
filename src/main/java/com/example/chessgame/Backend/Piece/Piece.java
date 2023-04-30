@@ -24,10 +24,11 @@ public abstract class Piece {
     }
 
     public abstract boolean move(int rowToMoveTo, int colToMoveTo);
-    public boolean move(int rowToMoveTo, int colToMoveTo, Piece piece){
+
+    public boolean move(int rowToMoveTo, int colToMoveTo, Piece piece) {
         ArrayList<Move> allPossibleMoves = piece.getAllPossibleMoves();
-        for(Move move : allPossibleMoves){
-            if(move.row() == rowToMoveTo && move.col() == colToMoveTo){
+        for (Move move : allPossibleMoves) {
+            if (move.row() == rowToMoveTo && move.col() == colToMoveTo) {
                 chessBoard.getChessBoard()[row][col] = null;
                 chessBoard.getChessBoard()[rowToMoveTo][colToMoveTo] = piece;
                 chessBoard.nextTurn();
@@ -36,6 +37,7 @@ public abstract class Piece {
         }
         return false;
     }
+
     public abstract ArrayList<Move> getAllPossibleMoves();
 
     public PieceColor getPieceColor() {
@@ -54,8 +56,8 @@ public abstract class Piece {
         return col;
     }
 
-    public String toString(){
-        switch (pieceType){
+    public String toString() {
+        switch (pieceType) {
             case KNIGHT -> {
                 return "N";
             }

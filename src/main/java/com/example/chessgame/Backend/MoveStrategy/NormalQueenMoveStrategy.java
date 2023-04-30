@@ -18,6 +18,6 @@ public class NormalQueenMoveStrategy extends NormalStrategy {
         int squaresToGoDown = 7 - row;
         int squaresToGoLeft = col;
         int squaresToGoRight = 7 - col;
-        return getAllPossibleMoves(Math.min(squaresToGoUp,squaresToGoLeft),squaresToGoUp,Math.min(squaresToGoUp,squaresToGoRight),squaresToGoLeft,squaresToGoRight,Math.min(squaresToGoDown,squaresToGoLeft),squaresToGoDown,Math.min(squaresToGoDown,squaresToGoRight));
+        return getAllPossibleMoves(Math.min(squaresToGoUp, squaresToGoLeft), squaresToGoUp, Math.min(squaresToGoUp, squaresToGoRight), squaresToGoLeft, squaresToGoRight, Math.min(squaresToGoDown, squaresToGoLeft), squaresToGoDown, Math.min(squaresToGoDown, squaresToGoRight));
     }
 }

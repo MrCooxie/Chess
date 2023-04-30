@@ -22,7 +22,7 @@ public class Rook extends Piece {
     public ArrayList<Move> getAllPossibleMoves() {
         switch (gameMode) {
             case NORMAL -> {
-                return new NormalRookMoveStrategy(chessBoard,this).getAllPossibleMoves();
+                return new NormalRookMoveStrategy(chessBoard, this).getAllPossibleMoves();
             }
             default -> {
                 return null;

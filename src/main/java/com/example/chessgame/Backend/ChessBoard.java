@@ -5,10 +5,12 @@ import com.example.chessgame.Backend.Piece.*;
 public class ChessBoard {
     private final GameMode gameMode;
     private final Piece[][] chessBoard;
-    public ChessBoard(GameMode gameMode){
+
+    public ChessBoard(GameMode gameMode) {
         this.gameMode = gameMode;
         chessBoard = createChessBoard();
     }
+
     private PieceColor turn = PieceColor.WHITE;
 
     private Piece[][] createChessBoard() {
@@ -19,11 +21,11 @@ public class ChessBoard {
                     PieceColor color = (row < 2) ? PieceColor.BLACK : PieceColor.WHITE;
                     if (row == 0 || row == 7) {
                         switch (col) {
-                            case 0, 7 -> methodChessBoard[row][col] = new Rook(color, row, col,gameMode, this);
-                            case 1, 6 -> methodChessBoard[row][col] = new Knight(color, row, col,gameMode, this);
-                            case 2, 5 -> methodChessBoard[row][col] = new Bishop(color, row, col,gameMode,this);
-                            case 3 -> methodChessBoard[row][col] = new Queen(color, row, col,gameMode, this);
-                            case 4 -> methodChessBoard[row][col] = new King(color, row, col,gameMode, this);
+                            case 0, 7 -> methodChessBoard[row][col] = new Rook(color, row, col, gameMode, this);
+                            case 1, 6 -> methodChessBoard[row][col] = new Knight(color, row, col, gameMode, this);
+                            case 2, 5 -> methodChessBoard[row][col] = new Bishop(color, row, col, gameMode, this);
+                            case 3 -> methodChessBoard[row][col] = new Queen(color, row, col, gameMode, this);
+                            case 4 -> methodChessBoard[row][col] = new King(color, row, col, gameMode, this);
                         }
                     } else {
                         methodChessBoard[row][col] = new Pawn(color, row, col, gameMode, this);
@@ -55,10 +57,11 @@ public class ChessBoard {
             turn = PieceColor.WHITE;
         }
     }
-    public void printChessBoard(){
-        for(Piece[] piecesArr : chessBoard){
+
+    public void printChessBoard() {
+        for (Piece[] piecesArr : chessBoard) {
             System.out.print("[");
-            for(Piece piece : piecesArr){
+            for (Piece piece : piecesArr) {
                 System.out.print(" " + ((piece == null) ? "-" : piece));
             }
             System.out.println(" ]");
