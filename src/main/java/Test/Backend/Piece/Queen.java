@@ -17,5 +17,10 @@ public class Queen extends Piece{
         return strategy.getPossibleMoves(this,chessBoard);
     }
 
+    @Override
+    public String getLetter() {
+        return "Q";
+    }
+
 
 }

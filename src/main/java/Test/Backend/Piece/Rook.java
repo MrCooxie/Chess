@@ -17,4 +17,9 @@ public class Rook extends Piece{
         return strategy.getPossibleMoves(this,chessBoard);
     }
 
+    @Override
+    public String getLetter() {
+        return "R";
+    }
+
 }

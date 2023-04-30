@@ -64,15 +64,9 @@ public class ChessBoard {
             for(int col = 0; col < 8; col++){
                 if(chessBoard[row][col] == null){
                     System.out.print(" -");
-                    continue;
-                }
-                switch (chessBoard[row][col].getClass().getSimpleName()){
-                    case "Rook","Pawn","Bishop","Queen","King" -> {
-                        System.out.print(" " +chessBoard[row][col].getClass().getSimpleName().charAt(0));
-                    }
-                    case "Knight" -> {
-                        System.out.print(" " + chessBoard[row][col].getClass().getSimpleName().toUpperCase().charAt(1));
-                    }
+                }else {
+                    System.out.print(" " + chessBoard[row][col].getLetter());
+
                 }
             }
             System.out.println(" ]");

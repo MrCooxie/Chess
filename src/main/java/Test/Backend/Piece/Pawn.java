@@ -18,4 +18,9 @@ public class Pawn extends Piece {
     public ArrayList<Move> getAllPossibleMove() {
        return strategy.getPossibleMoves(this,chessBoard);
     }
+
+    @Override
+    public String getLetter() {
+        return "P";
+    }
 }

@@ -19,5 +19,10 @@ public class King extends Piece{
         return strategy.getPossibleMoves(this,chessBoard);
     }
 
+    @Override
+    public String getLetter() {
+        return "K";
+    }
+
 
 }

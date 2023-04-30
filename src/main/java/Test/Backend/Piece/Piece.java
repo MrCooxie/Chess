@@ -55,4 +55,5 @@ public abstract class Piece {
     public void setCol(int col) {
         this.col = col;
     }
+    public abstract String getLetter();
 }

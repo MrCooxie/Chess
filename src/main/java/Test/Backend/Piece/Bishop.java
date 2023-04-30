@@ -17,4 +17,9 @@ public class Bishop extends Piece{
         return strategy.getPossibleMoves(this,chessBoard);
     }
 
+    @Override
+    public String getLetter() {
+        return "B";
+    }
+
 }

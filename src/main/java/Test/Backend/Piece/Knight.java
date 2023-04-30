@@ -19,5 +19,10 @@ public class Knight extends Piece{
         return strategy.getPossibleMoves(this,chessBoard);
     }
 
+    @Override
+    public String getLetter() {
+        return "N";
+    }
+
 
 }
