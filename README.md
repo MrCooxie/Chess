@@ -1,5 +1,7 @@
 # Chess
 ## Backend
+Note I have not implemented all the moves for every piece (King)
+
 I have created a class ChessBoard in there I have a method called createChessBoard() this basically creates a 8x8 board and puts Pieces on it. 
 Every piece on that board is of type Piece. There are many pieces that extend Piece for example: Pawn, Bishop, Knight, Rook, Queen, King. 
 Each of these pieces have methods ``getAllPossibleMoves()`` and ``move()``. 
@@ -44,3 +46,13 @@ This moves the piece up by one square on loc (6;4)
 And now if you print the board you get the updated board
 
 If the move is illegal then no changes will be done to the board.
+
+## Frontend
+
+In the frontend I have the main method, which calls ``GraphicalChessBoard`` which accepts as arguments the size of each square,
+colors of texts and colors of tiles.
+
+The board gets created with the ``createBoard()`` method which creates the entire board with pieces and position markers. 
+
+I have also added EventHandlers for the root of the Board. There I have implemented, what happens when piece gets pressed, dragged and released.
+
