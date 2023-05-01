@@ -1,10 +1,10 @@
-package Test.Backend.Strategy.NormalStrategies;
+package test.backend.strategy.normalstrategies;
 
-import Test.Backend.ChessBoard;
-import Test.Backend.Piece.Piece;
-import Test.Backend.Strategy.Move;
-import Test.Backend.Strategy.Strategy;
-import Test.Backend.Strategy.StrategyExtras;
+import test.backend.ChessBoard;
+import test.backend.piece.Piece;
+import test.backend.strategy.Move;
+import test.backend.strategy.Strategy;
+import test.backend.strategy.StrategyExtras;
 
 import java.util.ArrayList;
 

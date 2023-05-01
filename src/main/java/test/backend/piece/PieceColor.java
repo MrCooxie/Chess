@@ -1,4 +1,4 @@
-package Test.Backend.Piece;
+package test.backend.piece;
 
 public enum PieceColor {
     WHITE,BLACK

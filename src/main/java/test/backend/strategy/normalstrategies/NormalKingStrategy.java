@@ -1,14 +1,15 @@
-package Test.Backend.Strategy.NormalStrategies;
+package test.backend.strategy.normalstrategies;
 
-import Test.Backend.ChessBoard;
-import Test.Backend.Piece.Piece;
-import Test.Backend.Strategy.AngleCalculation;
-import Test.Backend.Strategy.Move;
-import Test.Backend.Strategy.Strategy;
+import test.backend.ChessBoard;
+import test.backend.piece.Piece;
+import test.backend.strategy.AngleCalculation;
+import test.backend.strategy.Move;
+import test.backend.strategy.Strategy;
 
 import java.util.ArrayList;
 
-public class NormalRookStrategy extends Strategy implements AngleCalculation {
+public class NormalKingStrategy extends Strategy implements AngleCalculation {
+
     @Override
     public ArrayList<Move> getPossibleMoves(Piece piece, ChessBoard chessBoardClass) {
         if (chessBoardClass.getTurn().equals(piece.getPieceColor())) {
@@ -19,7 +20,8 @@ public class NormalRookStrategy extends Strategy implements AngleCalculation {
             int squaresToGoDown = 7 - row;
             int squaresToGoLeft = col;
             int squaresToGoRight = 7 - col;
-            return getAllPossibleMoves(0, squaresToGoUp, 0, squaresToGoLeft, squaresToGoRight, 0, squaresToGoDown, 0, piece, chessBoard);
+            return getAllPossibleMoves(1, 1, 1, 1, 1, 1, 1, 1, piece, chessBoard);
+
         }
         return new ArrayList<>();
     }

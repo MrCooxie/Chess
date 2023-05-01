@@ -1,7 +1,7 @@
-package Test.Backend.Strategy;
+package test.backend.strategy;
 
-import Test.Backend.ChessBoard;
-import Test.Backend.Piece.Piece;
+import test.backend.ChessBoard;
+import test.backend.piece.Piece;
 
 import java.util.ArrayList;
 
