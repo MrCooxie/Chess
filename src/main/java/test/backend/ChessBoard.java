@@ -1,8 +1,9 @@
 package test.backend;
 
+
 import test.backend.piece.*;
-import test.backend.strategy.normalstrategies.*;
 import test.backend.strategy.Strategy;
+import test.backend.strategy.normalstrategies.*;
 
 public class ChessBoard {
     private GameMode gameMode;
@@ -13,7 +14,7 @@ public class ChessBoard {
     private Strategy bishopStrategy;
     private Strategy queenStrategy;
     private Strategy kingStrategy;
-    private final Piece[][] chessBoard;
+    private final test.backend.piece.Piece[][] chessBoard;
 
     private PieceColor turn = PieceColor.WHITE;
 
