@@ -1,15 +1,15 @@
 # Not updated readme!
 # Chess
-## Test.Backend
+## test.backend
 
 Note I have not implemented all the moves for every piece (King)
 
-I have created a class ChessBoard in there I have a method called createChessBoard() this basically creates a 8x8 board and puts Test.Test.Test.BackEnd.Pieces on it. 
-Every piece on that board is of type Test.Test.BackEnd.Test.Test.BackEnd.Piece.Strategy.Test.Backend.Strategy.Piece. There are many pieces that extend Test.Test.BackEnd.Test.Test.BackEnd.Piece.Strategy.Test.Backend.Strategy.Piece for example: Pawn, Bishop, Knight, Rook, Queen, King. 
+I have created a class ChessBoard in there I have a method called createChessBoard() this basically creates a 8x8 board and puts test.test.test.BackEnd.Pieces on it. 
+Every piece on that board is of type test.test.BackEnd.test.test.BackEnd.Piece.Strategy.test.backend.strategy.Piece. There are many pieces that extend test.test.BackEnd.test.test.BackEnd.Piece.Strategy.test.backend.strategy.Piece for example: Pawn, Bishop, Knight, Rook, Queen, King. 
 Each of these pieces have methods ``getAllPossibleMoves()`` and ``move()``. 
 
 The Method getAllPossibleMoves returns all of the possible moves that piece can make, taking in surroundings and position. Each piece has its own way of moving 
-and that also varies on different chess game modes. For that I have created a bunch of Strategies. At the moment I have only one Test.Test.Test.BackEnd.Pieces.Strategy.Test.Backend.Strategy called NormalStrategy. 
+and that also varies on different chess game modes. For that I have created a bunch of Strategies. At the moment I have only one test.test.test.BackEnd.Pieces.Strategy.test.backend.strategy called NormalStrategy. 
 Then I have created all of the different strategies, how a piece can move.
 
 Then the method move takes in the place to move. This first checks if the move is legal, if it is illegal, then it returns false and doesn't do anything. If the move is 

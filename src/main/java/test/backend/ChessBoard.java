@@ -1,8 +1,8 @@
-package Test.Backend;
+package test.backend;
 
-import Test.Backend.Piece.*;
-import Test.Backend.Strategy.NormalStrategies.*;
-import Test.Backend.Strategy.Strategy;
+import test.backend.piece.*;
+import test.backend.strategy.normalstrategies.*;
+import test.backend.strategy.Strategy;
 
 public class ChessBoard {
     private GameMode gameMode;

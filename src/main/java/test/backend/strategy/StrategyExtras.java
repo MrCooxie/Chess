@@ -1,7 +1,7 @@
-package Test.Backend.Strategy;
+package test.backend.strategy;
 
-import Test.Backend.Piece.Piece;
-import Test.Backend.Piece.PieceColor;
+import test.backend.piece.Piece;
+import test.backend.piece.PieceColor;
 
 public interface StrategyExtras {
     default boolean isEmpty(Piece piece){

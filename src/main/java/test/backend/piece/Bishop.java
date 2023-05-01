@@ -1,8 +1,8 @@
-package Test.Backend.Piece;
+package test.backend.piece;
 
-import Test.Backend.ChessBoard;
-import Test.Backend.Strategy.Move;
-import Test.Backend.Strategy.Strategy;
+import test.backend.ChessBoard;
+import test.backend.strategy.Move;
+import test.backend.strategy.Strategy;
 
 import java.util.ArrayList;
 
