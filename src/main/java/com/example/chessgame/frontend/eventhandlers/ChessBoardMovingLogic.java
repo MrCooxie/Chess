@@ -1,8 +1,8 @@
-package com.example.chessgame.Frontend.EventHandlers;
+package com.example.chessgame.frontend.eventhandlers;
 
-import com.example.chessgame.Backend.ChessBoard;
-import com.example.chessgame.Backend.MoveStrategy.Move;
-import com.example.chessgame.Backend.Piece.Piece;
+import com.example.chessgame.backend.ChessBoard;
+import com.example.chessgame.backend.MoveStrategy.Move;
+import com.example.chessgame.backend.piece.Piece;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;

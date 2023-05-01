@@ -1,9 +1,9 @@
 
-package com.example.chessgame.Frontend;
+package com.example.chessgame.frontend;
 
-import com.example.chessgame.Backend.ChessBoard;
-import com.example.chessgame.Backend.Piece.Piece;
-import com.example.chessgame.Frontend.EventHandlers.ChessBoardMovingLogic;
+import com.example.chessgame.backend.ChessBoard;
+import com.example.chessgame.backend.piece.Piece;
+import com.example.chessgame.frontend.eventhandlers.ChessBoardMovingLogic;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.TilePane;

@@ -1,6 +1,6 @@
-package com.example.chessgame.Backend;
+package com.example.chessgame.backend;
 
-import com.example.chessgame.Backend.Piece.*;
+import com.example.chessgame.backend.piece.*;
 
 public class ChessBoard {
     private final GameMode gameMode;

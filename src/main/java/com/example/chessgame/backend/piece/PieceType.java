@@ -1,4 +1,4 @@
-package com.example.chessgame.Backend.Piece;
+package com.example.chessgame.backend.piece;
 
 public enum PieceType {
     PAWN, ROOK, KNIGHT, BISHOP, QUEEN, KING,

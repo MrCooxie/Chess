@@ -1,8 +1,8 @@
 
-package com.example.chessgame.Frontend;
+package com.example.chessgame.frontend;
 
-import com.example.chessgame.Backend.ChessBoard;
-import com.example.chessgame.Backend.GameMode;
+import com.example.chessgame.backend.ChessBoard;
+import com.example.chessgame.backend.GameMode;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.StackPane;

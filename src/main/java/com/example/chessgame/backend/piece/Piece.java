@@ -1,8 +1,8 @@
-package com.example.chessgame.Backend.Piece;
+package com.example.chessgame.backend.piece;
 
-import com.example.chessgame.Backend.ChessBoard;
-import com.example.chessgame.Backend.GameMode;
-import com.example.chessgame.Backend.MoveStrategy.Move;
+import com.example.chessgame.backend.ChessBoard;
+import com.example.chessgame.backend.GameMode;
+import com.example.chessgame.backend.MoveStrategy.Move;
 
 import java.util.ArrayList;
 

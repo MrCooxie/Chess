@@ -1,4 +1,4 @@
-package com.example.chessgame.Frontend.EventHandlers;
+package com.example.chessgame.frontend.eventhandlers;
 
 
 public class Position {

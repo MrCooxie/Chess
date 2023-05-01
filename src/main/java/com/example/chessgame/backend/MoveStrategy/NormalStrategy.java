@@ -1,11 +1,11 @@
-package com.example.chessgame.Backend.MoveStrategy;
+package com.example.chessgame.backend.MoveStrategy;
 
 import Test.Backend.ChessBoard;
 import Test.Backend.Piece.Piece;
 import Test.Backend.Piece.PieceColor;
-import com.example.chessgame.Backend.ChessBoard;
-import com.example.chessgame.Backend.Piece.Piece;
-import com.example.chessgame.Backend.Piece.PieceColor;
+import com.example.chessgame.backend.ChessBoard;
+import com.example.chessgame.backend.piece.Piece;
+import com.example.chessgame.backend.piece.PieceColor;
 
 import java.util.ArrayList;
 
