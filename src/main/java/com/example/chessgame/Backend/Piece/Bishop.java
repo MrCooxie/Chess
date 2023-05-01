@@ -1,4 +1,3 @@
-/*
 package com.example.chessgame.Backend.Piece;
 
 import com.example.chessgame.Backend.ChessBoard;
@@ -30,4 +29,3 @@ public class Bishop extends Piece {
         }
     }
 }
-*/

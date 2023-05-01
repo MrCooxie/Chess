@@ -1,4 +1,3 @@
-/*
 
 package com.example.chessgame.Frontend;
 
@@ -135,4 +134,3 @@ public class GraphicalChessBoard {
 
 }
 
-*/

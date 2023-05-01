@@ -1,4 +1,3 @@
-/*
 package com.example.chessgame.Backend;
 
 import com.example.chessgame.Backend.Piece.*;
@@ -70,4 +69,3 @@ public class ChessBoard {
         System.out.println();
     }
 }
-*/

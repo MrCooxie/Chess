@@ -1,4 +1,3 @@
-/*
 package com.example.chessgame.Backend.MoveStrategy;
 
 import com.example.chessgame.Backend.ChessBoard;
@@ -17,4 +16,3 @@ public class NormalKingMoveStrategy extends NormalStrategy {
         return (turn.equals(pieceColor)) ? getAllPossibleMoves(1, 1, 1, 1, 1, 1, 1, 1) : new ArrayList<>();
     }
 }
-*/

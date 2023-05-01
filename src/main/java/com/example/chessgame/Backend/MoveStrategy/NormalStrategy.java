@@ -1,4 +1,3 @@
-/*
 package com.example.chessgame.Backend.MoveStrategy;
 
 import Test.Backend.ChessBoard;
@@ -91,4 +90,3 @@ public abstract class NormalStrategy {
         return (isInChessBoard(row, col) && !isEmpty(chessBoard[row][col]) && isOppositeColor(chessBoard[row][col]));
     }
 }
-*/

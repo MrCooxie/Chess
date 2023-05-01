@@ -1,4 +1,3 @@
-/*
 package com.example.chessgame.Backend.MoveStrategy;
 
 import com.example.chessgame.Backend.ChessBoard;
@@ -31,4 +30,3 @@ public class NormalKnightMoveStrategy extends NormalStrategy {
         return allPossibleMoves;
     }
 }
-*/

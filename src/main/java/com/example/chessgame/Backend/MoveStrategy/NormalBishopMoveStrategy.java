@@ -1,4 +1,3 @@
-/*
 package com.example.chessgame.Backend.MoveStrategy;
 
 import com.example.chessgame.Backend.ChessBoard;
@@ -23,4 +22,3 @@ public class NormalBishopMoveStrategy extends NormalStrategy {
         return new ArrayList<>();
     }
 }
-*/
