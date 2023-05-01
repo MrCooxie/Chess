@@ -3,4 +3,4 @@ target
 *.iws
 *.iml
 *.ipr
-java.com.example.chessgame
+com/example/chessgame
