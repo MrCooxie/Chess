@@ -12,7 +12,7 @@ public class NormalKnightStrategy extends Strategy implements StrategyExtras {
     @Override
     public ArrayList<Move> getPossibleMoves(Piece piece, ChessBoard chessBoardClass) {
         ArrayList<Move> allPossibleMoves = new ArrayList<>();
-        if(chessBoardClass.getTurn().equals(piece.getPieceColor())) {
+        if (isRightTurn(chessBoardClass.getTurn(), piece.getPieceColor())) {
             Piece[][] chessBoard = chessBoardClass.getChessBoard();
 
             int row = piece.getRow();
@@ -20,7 +20,7 @@ public class NormalKnightStrategy extends Strategy implements StrategyExtras {
             Move[] moves = new Move[]{new Move(row - 2, col - 1), new Move(row - 2, col + 1), new Move(row + 2, col - 1), new Move(row + 2, col + 1),
                     new Move(row - 1, col - 2), new Move(row + 1, col - 2), new Move(row - 1, col + 2), new Move(row + 1, col + 2)};
             for (Move move : moves) {
-                if (isInChessBoard(move.row(), move.col()) && (isEmpty(chessBoard[move.row()][move.col()]) || (!isEmpty(chessBoard[move.row()][move.col()]) && isOppositeColor(chessBoard[move.row()][move.col()], piece.getPieceColor())))) {
+                if (isInChessBoard(move.row(), move.col()) && (isEmpty(chessBoard[move.row()][move.col()]) || (!isEmpty(chessBoard[move.row()][move.col()]) && isOppositeColor(chessBoard[move.row()][move.col()].getPieceColor(), piece.getPieceColor())))) {
                     allPossibleMoves.add(move);
                 }
             }

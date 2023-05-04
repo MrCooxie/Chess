@@ -10,7 +10,11 @@ public interface StrategyExtras {
     default boolean isInChessBoard(int row, int col){
         return !(row < 0 || row > 7 || col < 0 || col > 7);
     }
-    default boolean isOppositeColor(Piece pieceToCheck, PieceColor originalPieceColor){
-        return !pieceToCheck.getPieceColor().equals(originalPieceColor);
+    default boolean isOppositeColor(PieceColor pieceColor1, PieceColor pieceColor2){
+        return !pieceColor1.equals(pieceColor2);
+    }
+
+    default boolean isRightTurn(PieceColor pieceColor1, PieceColor pieceColor2){
+        return pieceColor1.equals(pieceColor2);
     }
 }

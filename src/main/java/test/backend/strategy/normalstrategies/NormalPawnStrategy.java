@@ -14,7 +14,7 @@ public class NormalPawnStrategy extends Strategy implements StrategyExtras {
     @Override
     public ArrayList<Move> getPossibleMoves(Piece piece, ChessBoard chessBoardClass) {
         ArrayList<Move> allPossibleMoves = new ArrayList<>();
-        if(chessBoardClass.getTurn().equals(piece.getPieceColor())) {
+        if (isRightTurn(chessBoardClass.getTurn(), piece.getPieceColor())) {
             Piece[][] chessBoard = chessBoardClass.getChessBoard();
             int increment = (piece.getPieceColor().equals(PieceColor.WHITE)) ? -1 : 1;
             int row = piece.getRow();
@@ -26,10 +26,10 @@ public class NormalPawnStrategy extends Strategy implements StrategyExtras {
                     allPossibleMoves.add(new Move(row + 2 * increment, col));
                 }
             }
-            if (isInChessBoard(row + increment, col + 1) && !isEmpty(chessBoard[row + increment][col + 1]) && isOppositeColor(chessBoard[row + increment][col + 1], piece.getPieceColor())) {
+            if (isInChessBoard(row + increment, col + 1) && !isEmpty(chessBoard[row + increment][col + 1]) && isOppositeColor(chessBoard[row + increment][col + 1].getPieceColor(), piece.getPieceColor())) {
                 allPossibleMoves.add(new Move(row + increment, col + 1));
             }
-            if (isInChessBoard(row + increment, col - 1) && !isEmpty(chessBoard[row + increment][col - 1]) && isOppositeColor(chessBoard[row + increment][col - 1], piece.getPieceColor())) {
+            if (isInChessBoard(row + increment, col - 1) && !isEmpty(chessBoard[row + increment][col - 1]) && isOppositeColor(chessBoard[row + increment][col - 1].getPieceColor(), piece.getPieceColor())) {
                 allPossibleMoves.add(new Move(row + increment, col - 1));
             }
         }
