@@ -6,17 +6,15 @@ import test.backend.strategy.Strategy;
 
 import java.util.ArrayList;
 
-public class Knight extends Piece{
+public class Knight extends Piece {
 
-    public Knight(Strategy strategy, PieceColor pieceColor, int row, int col, ChessBoard chessBoard){
-        super(strategy,pieceColor,row,col,chessBoard);
+    public Knight(Strategy strategy, PieceColor pieceColor, int row, int col, ChessBoard chessBoard) {
+        super(strategy, pieceColor, row, col, chessBoard);
     }
-
-
 
     @Override
     public ArrayList<Move> getAllPossibleMove() {
-        return strategy.getPossibleMoves(this,chessBoard);
+        return strategy.getPossibleMoves(this, chessBoard);
     }
 
     @Override
