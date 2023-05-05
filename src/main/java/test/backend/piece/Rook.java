@@ -8,7 +8,6 @@ import java.util.ArrayList;
 
 public class Rook extends Piece {
 
-
     public Rook(Strategy strategy, PieceColor pieceColor, int row, int col, ChessBoard chessBoard) {
         super(strategy, pieceColor, row, col, chessBoard);
     }
@@ -22,5 +21,4 @@ public class Rook extends Piece {
     public String getLetter() {
         return "R";
     }
-
 }

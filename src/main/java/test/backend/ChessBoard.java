@@ -18,6 +18,8 @@ public class ChessBoard {
 
     private PieceColor turn = PieceColor.WHITE;
 
+    private boolean isChecked = false;
+
     public ChessBoard(GameMode gameMode) {
         this.gameMode = gameMode;
         updateGameMode(gameMode);

@@ -1,7 +1,9 @@
 package test.backend.strategy.normalstrategies;
 
 import test.backend.ChessBoard;
+import test.backend.piece.King;
 import test.backend.piece.Piece;
+import test.backend.piece.Rook;
 import test.backend.strategy.Move;
 import test.backend.strategy.Strategy;
 import test.backend.strategy.StrategyExtras;
@@ -24,8 +26,29 @@ public class NormalKingStrategy extends Strategy implements StrategyExtras {
                     allPossibleMoves.add(move);
                 }
             }
+            if (!piece.hasMoved()) {
+                if (chessBoard[row][0] instanceof Rook) {
+                    if (!chessBoard[row][0].hasMoved()) {
+                        if (isEmpty(chessBoard[row][1]) && isEmpty(chessBoard[row][2]) && isEmpty(chessBoard[row][3])) {
+                            Move move = new Move(row, 2);
+                            move.setSpecial(true);
+                            allPossibleMoves.add(move);
+                        }
+                    }
+                }
+                if (chessBoard[row][7] instanceof Rook) {
+                    if (!chessBoard[row][7].hasMoved()) {
+                        if (isEmpty(chessBoard[row][5]) && isEmpty(chessBoard[row][6])) {
+                            Move move = new Move(row, 6);
+                            move.setSpecial(true);
+                            allPossibleMoves.add(move);
+                        }
+                    }
+                }
 
+            }
         }
         return allPossibleMoves;
     }
 }
+

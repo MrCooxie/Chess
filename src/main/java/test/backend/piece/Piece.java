@@ -12,6 +12,7 @@ public abstract class Piece {
     protected int row;
     protected int col;
     protected final ChessBoard chessBoard;
+    protected boolean hasMoved = false;
 
     public Piece(Strategy strategy, PieceColor pieceColor, int row, int col, ChessBoard chessBoard) {
         this.pieceColor = pieceColor;
@@ -25,12 +26,14 @@ public abstract class Piece {
         ArrayList<Move> allPossibleMoves = getAllPossibleMove();
         for (Move move : allPossibleMoves) {
             if (rowToMoveTo == move.row() && colToMoveTo == move.col()) {
+                hasMoved = true;
                 chessBoard.getChessBoard()[rowToMoveTo][colToMoveTo] = chessBoard.getChessBoard()[row][col];
                 chessBoard.getChessBoard()[row][col] = null;
                 Piece piece = chessBoard.getChessBoard()[rowToMoveTo][colToMoveTo];
                 piece.setRow(rowToMoveTo);
                 piece.setCol(colToMoveTo);
                 chessBoard.nextTurn();
+
                 return true;
             }
         }
@@ -60,4 +63,8 @@ public abstract class Piece {
     }
 
     public abstract String getLetter();
+
+    public boolean hasMoved(){
+        return hasMoved;
+    }
 }
