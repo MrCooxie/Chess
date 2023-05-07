@@ -1,4 +1,4 @@
-## Backend
+# Backend
 ### Chess Game class
 In ``Chess Game`` class there is a constructor which takes in as argument ``GameMode``(Enum of GameModes).
 The constructor calls a private method ``createChessBoard()`` which return a 2D array of ``Piece`` and another private method
