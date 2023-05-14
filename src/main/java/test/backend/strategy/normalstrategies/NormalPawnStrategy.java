@@ -1,16 +1,17 @@
 package test.backend.strategy.normalstrategies;
 
 import test.backend.ChessBoard;
+import test.backend.piece.Pawn;
 import test.backend.piece.Piece;
 import test.backend.piece.PieceColor;
 import test.backend.strategy.Move;
 import test.backend.strategy.Strategy;
 import test.backend.strategy.StrategyExtras;
+import test.backend.strategy.eachpiecestrategy.PawnStrategy;
 
 import java.util.ArrayList;
 
-public class NormalPawnStrategy extends Strategy implements StrategyExtras {
-
+public class NormalPawnStrategy extends PawnStrategy implements StrategyExtras {
     @Override
     public ArrayList<Move> getPossibleMoves(Piece piece, ChessBoard chessBoardClass) {
         ArrayList<Move> allPossibleMoves = new ArrayList<>();
@@ -34,5 +35,21 @@ public class NormalPawnStrategy extends Strategy implements StrategyExtras {
             }
         }
         return allPossibleMoves;
+    }
+    @Override
+    public boolean move(Piece piece,ChessBoard chessBoard, int rowToMoveTo, int colToMoveTo) {
+        ArrayList<Move> allPossibleMoves = piece.getAllPossibleMove();
+        for(Move move : allPossibleMoves){
+            if(move.row() == rowToMoveTo && move.col() == colToMoveTo){
+                piece.setHasMoved(true);
+                chessBoard.getChessBoard()[piece.getRow()][piece.getCol()] = null;
+                piece.setRow(rowToMoveTo);
+                piece.setCol(colToMoveTo);
+                chessBoard.getChessBoard()[rowToMoveTo][colToMoveTo] = piece;
+                chessBoard.nextTurn();
+                return true;
+            }
+        }
+        return false;
     }
 }

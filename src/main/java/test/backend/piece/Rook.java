@@ -13,6 +13,10 @@ public class Rook extends Piece {
     }
 
     @Override
+    public boolean move(int rowToMoveTo, int colToMoveTo) {
+        return strategy.move(this, chessBoard, rowToMoveTo,colToMoveTo);
+    }
+    @Override
     public ArrayList<Move> getAllPossibleMove() {
         return strategy.getPossibleMoves(this, chessBoard);
     }

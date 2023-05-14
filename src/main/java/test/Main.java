@@ -23,7 +23,6 @@ public class Main {
         chessBoard.printChessBoard();
         chessBoard.move(0,2,2,4);
         chessBoard.printChessBoard();
-        printMoves(chessBoard.getChessBoard()[7][4].getAllPossibleMove());
 
     }
 

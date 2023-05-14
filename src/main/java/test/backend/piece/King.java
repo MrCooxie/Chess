@@ -8,9 +8,13 @@ import java.util.ArrayList;
 
 public class King extends Piece {
 
-    private boolean hasMoved = false;
     public King(Strategy strategy, PieceColor pieceColor, int row, int col, ChessBoard chessBoard) {
         super(strategy, pieceColor, row, col, chessBoard);
+    }
+
+    @Override
+    public boolean move(int rowToMoveTo, int colToMoveTo) {
+        return strategy.move(this, chessBoard, rowToMoveTo,colToMoveTo);
     }
     @Override
     public ArrayList<Move> getAllPossibleMove() {
@@ -21,12 +25,5 @@ public class King extends Piece {
     public String getLetter() {
         return "K";
     }
-    public void setHasMoved(boolean hasMoved){
-        this.hasMoved = hasMoved;
-    }
-    public boolean hasMoved(){
-        return hasMoved;
-    }
-
 
 }

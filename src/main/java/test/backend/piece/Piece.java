@@ -22,23 +22,7 @@ public abstract class Piece {
         this.chessBoard = chessBoard;
     }
 
-    public boolean move(int rowToMoveTo, int colToMoveTo) {
-        ArrayList<Move> allPossibleMoves = getAllPossibleMove();
-        for (Move move : allPossibleMoves) {
-            if (rowToMoveTo == move.row() && colToMoveTo == move.col()) {
-                hasMoved = true;
-                chessBoard.getChessBoard()[rowToMoveTo][colToMoveTo] = chessBoard.getChessBoard()[row][col];
-                chessBoard.getChessBoard()[row][col] = null;
-                Piece piece = chessBoard.getChessBoard()[rowToMoveTo][colToMoveTo];
-                piece.setRow(rowToMoveTo);
-                piece.setCol(colToMoveTo);
-                chessBoard.nextTurn();
-
-                return true;
-            }
-        }
-        return false;
-    }
+    public abstract boolean move(int rowToMoveTo, int colToMoveTo);
 
     public abstract ArrayList<Move> getAllPossibleMove();
 
@@ -67,4 +51,8 @@ public abstract class Piece {
     public boolean hasMoved(){
         return hasMoved;
     }
+    public void setHasMoved(boolean hasMoved){
+        this.hasMoved = hasMoved;
+    }
+
 }

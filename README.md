@@ -49,11 +49,10 @@ The constructor takes in as arguments.
         this.chessBoard = chessBoard;
     }
 ```
-It takes in ``Strategy``, ``PieceColor``, row, col, ``ChessBoard``.
+It takes in ``Strategy``, ``PieceColor``, row, col, ``ChessBoard`` and assigns them to class fields. The class also has one pre-defined field ``hasMoved = false``.
 
-It has two abstract methods ``getAllPossibleMoves()`` and ``getLetter()``.
+It contains two abstract methods ``getAllPossibleMoves()``, ``getLetter()`` and ``hasMoved()``; 
+getters ``getRow()``, ``getCol()`` and ``getPieceColor``; setters ``setRow()``, ``setCol()``; and pre-defined method ``move()``.
 
-It has a few getters ``getRow()``, ``getCol()`` and ``getPieceColor``.
 
-It also has some setters ``setRow()``, ``setCol()``
 

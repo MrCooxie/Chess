@@ -11,6 +11,11 @@ public class Queen extends Piece {
         super(strategy, pieceColor, row, col, chessBoard);
     }
 
+    @Override
+    public boolean move(int rowToMoveTo, int colToMoveTo) {
+        return strategy.move(this, chessBoard, rowToMoveTo,colToMoveTo);
+    }
+
 
     @Override
     public ArrayList<Move> getAllPossibleMove() {

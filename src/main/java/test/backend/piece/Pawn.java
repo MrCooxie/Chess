@@ -3,6 +3,7 @@ package test.backend.piece;
 import test.backend.ChessBoard;
 import test.backend.strategy.Move;
 import test.backend.strategy.Strategy;
+import test.backend.strategy.eachpiecestrategy.PawnStrategy;
 
 import java.util.ArrayList;
 
@@ -10,6 +11,11 @@ public class Pawn extends Piece {
 
     public Pawn(Strategy strategy, PieceColor pieceColor, int row, int col, ChessBoard chessBoard) {
         super(strategy, pieceColor, row, col, chessBoard);
+    }
+
+    @Override
+    public boolean move(int rowToMoveTo, int colToMoveTo) {
+        return strategy.move(this, chessBoard, rowToMoveTo,colToMoveTo);
     }
     @Override
     public ArrayList<Move> getAllPossibleMove() {
