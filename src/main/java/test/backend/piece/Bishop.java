@@ -3,12 +3,13 @@ package test.backend.piece;
 import test.backend.ChessBoard;
 import test.backend.strategy.Move;
 import test.backend.strategy.Strategy;
+import test.backend.strategy.eachpiecestrategy.BishopStrategy;
 
 import java.util.ArrayList;
 
 public class Bishop extends Piece {
 
-    public Bishop(Strategy strategy, PieceColor pieceColor, int row, int col, ChessBoard chessBoard) {
+    public Bishop(BishopStrategy strategy, PieceColor pieceColor, int row, int col, ChessBoard chessBoard) {
         super(strategy, pieceColor, row, col, chessBoard);
     }
     @Override

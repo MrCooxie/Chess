@@ -3,17 +3,18 @@ package test.backend;
 
 import test.backend.piece.*;
 import test.backend.strategy.Strategy;
+import test.backend.strategy.eachpiecestrategy.*;
 import test.backend.strategy.normalstrategies.*;
 
 public class ChessBoard {
     private GameMode gameMode;
 
-    private Strategy rookStrategy;
-    private Strategy pawnStrategy;
-    private Strategy knightStrategy;
-    private Strategy bishopStrategy;
-    private Strategy queenStrategy;
-    private Strategy kingStrategy;
+    private RookStrategy rookStrategy;
+    private PawnStrategy pawnStrategy;
+    private KnightStrategy knightStrategy;
+    private BishopStrategy bishopStrategy;
+    private QueenStrategy queenStrategy;
+    private KingStrategy kingStrategy;
     private final test.backend.piece.Piece[][] chessBoard;
 
     private PieceColor turn = PieceColor.WHITE;

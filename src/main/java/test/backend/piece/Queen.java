@@ -3,11 +3,12 @@ package test.backend.piece;
 import test.backend.ChessBoard;
 import test.backend.strategy.Move;
 import test.backend.strategy.Strategy;
+import test.backend.strategy.eachpiecestrategy.QueenStrategy;
 
 import java.util.ArrayList;
 
 public class Queen extends Piece {
-    public Queen(Strategy strategy, PieceColor pieceColor, int row, int col, ChessBoard chessBoard) {
+    public Queen(QueenStrategy strategy, PieceColor pieceColor, int row, int col, ChessBoard chessBoard) {
         super(strategy, pieceColor, row, col, chessBoard);
     }
 
