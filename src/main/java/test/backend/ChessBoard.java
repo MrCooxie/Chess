@@ -99,4 +99,9 @@ public class ChessBoard {
         }
         return false;
     }
+
+    public boolean isChecked() {
+        return isChecked;
+    }
+
 }

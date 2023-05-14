@@ -2,7 +2,6 @@ package test.backend.piece;
 
 import test.backend.ChessBoard;
 import test.backend.strategy.Move;
-import test.backend.strategy.Strategy;
 import test.backend.strategy.eachpiecestrategy.RookStrategy;
 
 import java.util.ArrayList;

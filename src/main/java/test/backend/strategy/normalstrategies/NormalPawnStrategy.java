@@ -14,8 +14,9 @@ import java.util.ArrayList;
 public class NormalPawnStrategy extends PawnStrategy implements StrategyExtras {
     @Override
     public ArrayList<Move> getPossibleMoves(Piece piece, ChessBoard chessBoardClass) {
+        //TODO: Doesn't check whether after the move is it a check
         ArrayList<Move> allPossibleMoves = new ArrayList<>();
-        if (isRightTurn(chessBoardClass.getTurn(), piece.getPieceColor())) {
+        if (isRightTurn(chessBoardClass.getTurn(), piece.getPieceColor()) && !chessBoardClass.isChecked()) {
             Piece[][] chessBoard = chessBoardClass.getChessBoard();
             int increment = (piece.getPieceColor().equals(PieceColor.WHITE)) ? -1 : 1;
             int row = piece.getRow();

@@ -48,10 +48,11 @@ public abstract class Piece {
 
     public abstract String getLetter();
 
-    public boolean hasMoved(){
+    public boolean hasMoved() {
         return hasMoved;
     }
-    public void setHasMoved(boolean hasMoved){
+
+    public void setHasMoved(boolean hasMoved) {
         this.hasMoved = hasMoved;
     }
 
