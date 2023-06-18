@@ -12,6 +12,9 @@ public class Knight extends Piece{
         pieceStrategy = new KnightStrategy(this, chessBoardClass);
 
     }
-
+    @Override
+    public char getLetter() {
+        return 'N';
+    }
 
 }

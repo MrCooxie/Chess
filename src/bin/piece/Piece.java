@@ -9,7 +9,7 @@ import bin.strategy.piecestrategy.PieceStrategy;
 public abstract class Piece{
     protected int row;
     protected int col;
-    protected final ChessBoard chessBoardClass;
+    protected  ChessBoard chessBoardClass;
 
     protected final Strategy strategy;
     protected final PieceColor pieceColor;
@@ -17,8 +17,8 @@ public abstract class Piece{
     public Piece(int row, int col, Strategy strategy, ChessBoard chessBoardClass){
         this.row = row;
         this.col = col;
-        this.chessBoardClass = chessBoardClass;
         this.strategy = strategy;
+        this.chessBoardClass = chessBoardClass;
         pieceColor = (row < 2) ? PieceColor.BLACK : PieceColor.WHITE;
     }
     public void move(int row, int col) {
@@ -46,4 +46,6 @@ public abstract class Piece{
     public void setCol(int col) {
         this.col = col;
     }
+    public abstract char getLetter();
+
 }

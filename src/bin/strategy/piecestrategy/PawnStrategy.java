@@ -25,10 +25,10 @@ public class PawnStrategy extends PieceStrategy{
                     allPossibleMoves.add(new int[]{row + 2 * increment,col});
                 }
             }
-            if(isInChessBoard(row + increment, col + 1) && !chessBoard[row + increment][col + 1].getPieceColor().equals(turn) && isChecked(row + increment,col +1)){
+            if(isInChessBoard(row + increment, col + 1) && chessBoard[row + increment][col +1] != null && !chessBoard[row + increment][col + 1].getPieceColor().equals(turn) && isChecked(row + increment,col +1)){
                 allPossibleMoves.add(new int[]{row + increment, col +1});
             }
-            if(isInChessBoard(row + increment, col - 1) && !chessBoard[row + increment][col - 1].getPieceColor().equals(turn) && isChecked(row + increment, col -1)){
+            if(isInChessBoard(row + increment, col - 1) && chessBoard[row + increment][col -1] != null && !chessBoard[row + increment][col - 1].getPieceColor().equals(turn) && isChecked(row + increment, col -1)){
                 allPossibleMoves.add(new int[]{row + increment, col -1});
             }
 
