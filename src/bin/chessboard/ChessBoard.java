@@ -6,8 +6,8 @@ import bin.strategy.NormalStrategy;
 import bin.strategy.Strategy;
 
 public class ChessBoard {
-    private PieceColor turn;
     private final Piece[][] chessBoard = new Piece[8][8];
+    private PieceColor turn;
     private final Strategy strategy;
     public ChessBoard(GameMode gameMode) {
         strategy = updateStrategy(gameMode);
@@ -45,17 +45,6 @@ public class ChessBoard {
         }
         throw new RuntimeException();
     }
-
-    public PieceColor getTurn() {
-        return turn;
-    }
-
-    public Piece[][] getChessBoard() {
-        return chessBoard;
-    }
-    public void nextTurn(){
-        turn = (turn.equals(PieceColor.WHITE)) ? PieceColor.BLACK : PieceColor.WHITE;
-    }
     public void printChessBoard(){
         for(int row = 0; row < 8; row++){
             System.out.print("[");
@@ -73,4 +62,17 @@ public class ChessBoard {
     public void move(int row1, int col1, int row2, int col2){
         chessBoard[row1][col1].move(row2,col2);
     }
+
+    public PieceColor getTurn() {
+        return turn;
+    }
+
+    public Piece[][] getChessBoard() {
+        return chessBoard;
+    }
+    public void nextTurn(){
+        turn = (turn.equals(PieceColor.WHITE)) ? PieceColor.BLACK : PieceColor.WHITE;
+    }
+
+
 }
