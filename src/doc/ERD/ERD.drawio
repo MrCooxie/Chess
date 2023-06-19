@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T15:42:06.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 OPR/99.0.0.0" etag="1OTRKAIAZTkyXT8mCezf" version="21.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-19T19:55:33.480Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 OPR/99.0.0.0" etag="JvyRnMD478r7iN5KrSKT" version="21.4.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4807" dy="3700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11768" dy="8245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="ac1qyCbTUyct5T3TFnsW-7" value="&lt;h3 style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/h3&gt;&lt;div&gt;&lt;/div&gt;" style="verticalAlign=middle;align=left;overflow=fill;html=1;whiteSpace=wrap;horizontal=1;labelPosition=center;verticalLabelPosition=middle;strokeWidth=1;strokeColor=default;rounded=0;shadow=0;gradientColor=none;fillColor=default;container=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-250" y="-130" width="360" height="440" as="geometry">
+        <mxCell id="ac1qyCbTUyct5T3TFnsW-7" value="&lt;h3 style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/h3&gt;&lt;div&gt;&lt;/div&gt;" style="verticalAlign=middle;align=left;overflow=fill;html=1;whiteSpace=wrap;horizontal=1;labelPosition=center;verticalLabelPosition=middle;strokeWidth=1;strokeColor=default;rounded=0;shadow=0;gradientColor=none;fillColor=default;container=1;recursiveResize=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-280" y="-710" width="360" height="560" as="geometry">
             <mxRectangle x="-210" y="-70" width="350" height="340" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -22,7 +22,7 @@
             <mxGeometry y="45.12820512820512" width="360" height="33.84615384615384" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;private &lt;/font&gt;final Piece[][] chessBoard = new Piece[8][8];" placeholders="1" name="Variable" id="ac1qyCbTUyct5T3TFnsW-49">
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;private &lt;/font&gt;&lt;font color=&quot;#ea6b66&quot;&gt;final &lt;/font&gt;Piece[][] chessBoard = new Piece[8][8];" placeholders="1" name="Variable" id="ac1qyCbTUyct5T3TFnsW-49">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;" parent="ac1qyCbTUyct5T3TFnsW-7" vertex="1">
             <mxGeometry y="78.97435897435898" width="360" height="33.84615384615384" as="geometry" />
           </mxCell>
@@ -37,7 +37,7 @@
             <mxGeometry y="180.51282051282047" width="360" height="33.84615384615384" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;private &lt;/font&gt;final Strategy strategy;" placeholders="1" name="Variable" id="ac1qyCbTUyct5T3TFnsW-63">
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;private &lt;/font&gt;&lt;font color=&quot;#ea6b66&quot;&gt;final &lt;/font&gt;Strategy strategy;" placeholders="1" name="Variable" id="ac1qyCbTUyct5T3TFnsW-63">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;" parent="ac1qyCbTUyct5T3TFnsW-7" vertex="1">
             <mxGeometry y="146.6666666666666" width="360" height="33.84615384615384" as="geometry" />
           </mxCell>
@@ -59,12 +59,12 @@
         </UserObject>
         <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;Piece[][] getChessBoard()" placeholders="1" name="Variable" id="ac1qyCbTUyct5T3TFnsW-67">
           <mxCell style="text;html=1;strokeColor=#FFFFFF;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;" parent="ac1qyCbTUyct5T3TFnsW-7" vertex="1">
-            <mxGeometry y="349.74358974358967" width="360" height="33.84615384615384" as="geometry" />
+            <mxGeometry y="356.5135897435897" width="360" height="33.84615384615384" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void nextTurn()" placeholders="1" name="Variable" id="ac1qyCbTUyct5T3TFnsW-69">
           <mxCell style="text;html=1;strokeColor=#FFFFFF;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;" parent="ac1qyCbTUyct5T3TFnsW-7" vertex="1">
-            <mxGeometry y="383.58974358974353" width="360" height="33.84615384615384" as="geometry" />
+            <mxGeometry y="390.3597435897435" width="360" height="33.84615384615384" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="ac1qyCbTUyct5T3TFnsW-72" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="ac1qyCbTUyct5T3TFnsW-7" vertex="1">
@@ -78,48 +78,33 @@
         </mxCell>
         <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void getTurn()" placeholders="1" name="Variable" id="ac1qyCbTUyct5T3TFnsW-77">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;" parent="ac1qyCbTUyct5T3TFnsW-7" vertex="1">
-            <mxGeometry y="315.8974358974359" width="360" height="33.84615384615384" as="geometry" />
+            <mxGeometry y="322.6674358974359" width="360" height="33.84615384615384" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="ac1qyCbTUyct5T3TFnsW-78" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="ac1qyCbTUyct5T3TFnsW-7" vertex="1">
           <mxGeometry y="315.89461538461535" width="360" height="6.769230769230767" as="geometry" />
         </mxCell>
-        <mxCell id="ac1qyCbTUyct5T3TFnsW-71" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.889;exitY=0.522;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ac1qyCbTUyct5T3TFnsW-80" target="ac1qyCbTUyct5T3TFnsW-48" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-520" y="-193.5" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ac1qyCbTUyct5T3TFnsW-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Piece (abstract class)&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;Piece(int row, int col, ChessBoard chessBoardClass, Strategy strategy)&lt;br&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font style=&quot;background-color: initial;&quot; color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;abstract boolean move(int row, int col)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&amp;nbsp;protected &lt;/font&gt;int row&lt;br&gt;&lt;hr&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&amp;nbsp;protected &lt;/font&gt;int col&lt;br&gt;&lt;hr&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&amp;nbsp;protected &lt;/font&gt;PieceColor pieceColor&lt;br&gt;&lt;hr&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&amp;nbsp;protected &lt;/font&gt;ChessBoard chessBoardClass&lt;br&gt;&lt;hr&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&amp;nbsp;protected &lt;/font&gt;Strategy strategy&lt;br&gt;&lt;hr&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&amp;nbsp;protected &lt;/font&gt;PieceStrategy pieceStrategy&lt;br&gt;&lt;hr&gt;&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;PieceColor getPieceColor()&lt;br&gt;&lt;hr&gt;&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getRow()&lt;br&gt;&lt;hr&gt;&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getCol()&lt;br&gt;&lt;hr&gt;&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setRow(int row)&lt;br&gt;&lt;hr&gt;&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setCol(int col)" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="344" y="-20" width="300" height="720" as="geometry" />
-        </mxCell>
-        <mxCell id="ac1qyCbTUyct5T3TFnsW-32" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=1.003;exitY=0.224;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.004;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ac1qyCbTUyct5T3TFnsW-7" target="ac1qyCbTUyct5T3TFnsW-24" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="350" y="40.000000000000014" as="sourcePoint" />
-            <mxPoint x="430" y="40.000000000000014" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ac1qyCbTUyct5T3TFnsW-79" value="" style="html=1;whiteSpace=wrap;container=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-710" y="-380" width="180" height="240" as="geometry" />
+          <mxGeometry x="-1400" y="-1540" width="260" height="240" as="geometry" />
         </mxCell>
         <UserObject label="&amp;nbsp;NORMAL" placeholders="1" name="Variable" id="ac1qyCbTUyct5T3TFnsW-81">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="ac1qyCbTUyct5T3TFnsW-79" vertex="1">
-            <mxGeometry y="40.23724137931034" width="180" height="24.827586206896548" as="geometry" />
+            <mxGeometry y="40.24" width="260" height="39.76" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="ac1qyCbTUyct5T3TFnsW-82" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="ac1qyCbTUyct5T3TFnsW-79" vertex="1">
-          <mxGeometry y="33.103448275862064" width="180" height="7.133793103448274" as="geometry" />
+          <mxGeometry y="33.103448275862064" width="260" height="7.133793103448274" as="geometry" />
         </mxCell>
         <UserObject label="&amp;nbsp;ATOMIC" placeholders="1" name="Variable" id="ac1qyCbTUyct5T3TFnsW-83">
           <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="ac1qyCbTUyct5T3TFnsW-79" vertex="1">
-            <mxGeometry y="80" width="180" height="40" as="geometry" />
+            <mxGeometry y="80" width="260" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="ac1qyCbTUyct5T3TFnsW-80" value="GameMode" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="ac1qyCbTUyct5T3TFnsW-79" vertex="1">
-          <mxGeometry y="5.677714285714287" width="180" height="27.428571428571427" as="geometry" />
+        <mxCell id="ac1qyCbTUyct5T3TFnsW-80" value="GameMode (enum)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="ac1qyCbTUyct5T3TFnsW-79" vertex="1">
+          <mxGeometry y="5.677714285714287" width="260" height="27.428571428571427" as="geometry" />
         </mxCell>
         <mxCell id="ac1qyCbTUyct5T3TFnsW-85" value="" style="html=1;whiteSpace=wrap;container=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="330" y="-380" width="230" height="170" as="geometry" />
+          <mxGeometry x="-260" y="-1620" width="230" height="170" as="geometry" />
         </mxCell>
         <mxCell id="ac1qyCbTUyct5T3TFnsW-89" value="Main" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="ac1qyCbTUyct5T3TFnsW-85" vertex="1">
           <mxGeometry width="230" height="40" as="geometry" />
@@ -130,7 +115,931 @@
         <mxCell id="ac1qyCbTUyct5T3TFnsW-91" value="Creates an instance of ChessBoard" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ac1qyCbTUyct5T3TFnsW-85" vertex="1">
           <mxGeometry y="40" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ac1qyCbTUyct5T3TFnsW-92" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ac1qyCbTUyct5T3TFnsW-47" target="ac1qyCbTUyct5T3TFnsW-91" edge="1">
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-1" value="" style="html=1;whiteSpace=wrap;container=1;resizeWidth=0;resizeHeight=1;resizable=1;enumerate=0;imageAspect=1;recursiveResize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1230" y="-360" width="460" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-2" value="Piece (abstract)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+          <mxGeometry width="460" height="46.67121951219513" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+          <mxGeometry y="46.66666666666666" width="460" height="7.898333333333335" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;Piece (int row, int col, Strategy strategy, ChessBoard chessBoardClass);" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-4">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+            <mxGeometry y="54.56500000000004" width="446.85714285714283" height="39.49166666666666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-5" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+          <mxGeometry y="94.05666666666667" width="460" height="7.898333333333335" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;int row;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-6">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+            <mxGeometry y="101.95500000000004" width="460" height="39.49166666666666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;int col;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-7">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+            <mxGeometry y="141.44666666666674" width="460" height="39.49166666666666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected&amp;nbsp; &lt;/font&gt;ChessBoard chessBoardClass;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-11">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+            <mxGeometry y="180.93833333333336" width="460" height="39.49166666666666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;final Strategy strategy;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-12">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+            <mxGeometry y="220.43000000000004" width="460" height="39.49166666666666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;final PieceColor pieceColor;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-13">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+            <mxGeometry y="259.92166666666674" width="460" height="39.49166666666666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;PieceStrategy pieceStrategy;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-14">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+            <mxGeometry y="299.41333333333347" width="460" height="39.49166666666666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-15" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+          <mxGeometry y="331.00666666666683" width="460" height="7.898333333333335" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;PieceColor getPieceColor()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-16">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+            <mxGeometry y="427.8812578616354" width="460" height="39.49166666666666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void move(int row, int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-18">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+            <mxGeometry y="338.9012578616354" width="460" height="39.49166666666666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-19" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+          <mxGeometry y="419.99666666666684" width="460" height="7.898333333333335" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+          <mxGeometry y="370.49666666666684" width="460" height="7.898333333333335" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;&lt;font color=&quot;#ea6b66&quot;&gt;abstract &lt;/font&gt;char getLetter()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-21">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+            <mxGeometry y="378.3912578616354" width="460" height="39.49166666666666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getCol()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-22">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+            <mxGeometry y="504.4912578616354" width="460" height="39.49166666666666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getRow()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-23">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+            <mxGeometry y="465.0012578616354" width="460" height="39.49166666666666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setRow(int row)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-24">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+            <mxGeometry y="543.9812578616354" width="460" height="39.49166666666666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setRow(int row)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-25">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+            <mxGeometry y="583.4712578616354" width="460" height="39.49166666666666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setCol(int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-26">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-1">
+            <mxGeometry y="622.9612578616354" width="460" height="39.49166666666666" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-28" value="" style="html=1;whiteSpace=wrap;container=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1420" y="-1200" width="260" height="240" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;BLACK" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-29">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-28">
+            <mxGeometry y="40.24" width="260" height="39.76" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-28">
+          <mxGeometry y="33.103448275862064" width="260" height="7.133793103448274" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;WHITE" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-31">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-28">
+            <mxGeometry y="80" width="260" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-32" value="PieceColor(enum)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-28">
+          <mxGeometry y="5.677714285714287" width="260" height="27.428571428571427" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-56" value="" style="html=1;whiteSpace=wrap;recursiveResize=1;container=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1855" y="-953.33" width="310" height="390" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;&lt;font color=&quot;#ea6b66&quot;&gt;abstract &lt;/font&gt;void useStrategy(Piece piece, int row, int col, Piece[][] chessBoard);" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-61">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-56">
+            <mxGeometry y="86.77" width="310" height="46.8" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-60" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-56">
+          <mxGeometry y="80" width="310" height="6.77" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-62" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-56">
+          <mxGeometry y="126.8" width="310" height="6.77" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-58" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-56">
+          <mxGeometry y="40" width="310" height="6.77" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-57" value="Strategy(abstract)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;autosize=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-56">
+          <mxGeometry width="310" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;boolean move(Piece piece, int row, int col, ArrayList&amp;lt;int[]&amp;gt; allPossibleMoves, Piece[][] chessBoard)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-59">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-56">
+            <mxGeometry y="46.15" width="310" height="33.85" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-65" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ac1qyCbTUyct5T3TFnsW-63" target="EIkv0QK46XL0pL5vTjjJ-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-66" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ac1qyCbTUyct5T3TFnsW-61" target="EIkv0QK46XL0pL5vTjjJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-78" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ac1qyCbTUyct5T3TFnsW-85" target="ac1qyCbTUyct5T3TFnsW-47">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-280" y="-700" as="sourcePoint" />
+            <mxPoint x="-200" y="-700" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-79" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ac1qyCbTUyct5T3TFnsW-49" target="EIkv0QK46XL0pL5vTjjJ-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="-650" as="sourcePoint" />
+            <mxPoint x="180" y="-650" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-80" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ac1qyCbTUyct5T3TFnsW-48" target="ac1qyCbTUyct5T3TFnsW-80">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-300" y="-1040" as="sourcePoint" />
+            <mxPoint x="-820" y="-1481" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-81" value="" style="html=1;whiteSpace=wrap;container=1;resizeWidth=0;resizeHeight=1;resizable=1;enumerate=0;imageAspect=1;recursiveResize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="1124" width="280" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-82" value="Bishop(sub)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+          <mxGeometry width="280" height="40.097808313294415" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-83" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+          <mxGeometry y="40.093896713615024" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;public Bishop(int row, int col, Strategy strategy, ChessBoard chessBoardClass)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-84">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;resizable=0;collapsible=1;recursiveResize=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+            <mxGeometry y="46.885862068965515" width="280" height="42.748275862068965" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-85" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+          <mxGeometry y="80.80924882629111" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;int row;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-86">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+            <mxGeometry y="87.59514084507045" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;int col;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-87">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+            <mxGeometry y="121.5246009389672" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected&amp;nbsp; &lt;/font&gt;ChessBoard chessBoardClass;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-88">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+            <mxGeometry y="155.45406103286396" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;final Strategy strategy;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-89">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+            <mxGeometry y="189.38352112676057" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;final PieceColor pieceColor;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-90">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+            <mxGeometry y="223.31298122065738" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;PieceStrategy pieceStrategy;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-91">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+            <mxGeometry y="257.24244131455407" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-92" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+          <mxGeometry y="284.3860093896716" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;PieceColor getPieceColor()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-93">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+            <mxGeometry y="359.0327205370589" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void move(int row, int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-94">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+            <mxGeometry y="291.16868633182764" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-95" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+          <mxGeometry y="352.2499208584844" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-96" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+          <mxGeometry y="318.3140375586857" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;char getLetter() -&amp;gt; &#39;B&#39;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-97">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+            <mxGeometry y="318.3170002151275" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getCol()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-98">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+            <mxGeometry y="426.89172254913154" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getRow()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-99">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+            <mxGeometry y="392.9636943801175" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setRow(int row)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-100">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+            <mxGeometry y="460.81975071814577" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setRow(int row)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-101">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+            <mxGeometry y="494.74777888715965" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setCol(int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-102">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-81">
+            <mxGeometry y="528.6758070561737" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-107" value="" style="html=1;whiteSpace=wrap;container=1;resizeWidth=0;resizeHeight=1;resizable=1;enumerate=0;imageAspect=1;recursiveResize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="860" y="1124" width="280" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-108" value="King(sub)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+          <mxGeometry width="280" height="40.097808313294415" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-109" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+          <mxGeometry y="40.093896713615024" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;public King(int row, int col, Strategy strategy, ChessBoard chessBoardClass)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-110">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;resizable=0;collapsible=1;recursiveResize=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+            <mxGeometry y="46.885862068965515" width="280" height="42.748275862068965" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-111" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+          <mxGeometry y="80.80924882629111" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;int row;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-112">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+            <mxGeometry y="87.59514084507045" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;int col;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-113">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+            <mxGeometry y="121.5246009389672" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected&amp;nbsp; &lt;/font&gt;ChessBoard chessBoardClass;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-114">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+            <mxGeometry y="155.45406103286396" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;final Strategy strategy;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-115">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+            <mxGeometry y="189.38352112676057" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;final PieceColor pieceColor;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-116">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+            <mxGeometry y="223.31298122065738" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;PieceStrategy pieceStrategy;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-117">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+            <mxGeometry y="257.24244131455407" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-118" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+          <mxGeometry y="284.3860093896716" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;PieceColor getPieceColor()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-119">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+            <mxGeometry y="359.0327205370589" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void move(int row, int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-120">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+            <mxGeometry y="291.16868633182764" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-121" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+          <mxGeometry y="352.2499208584844" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-122" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+          <mxGeometry y="318.3140375586857" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;char getLetter() -&amp;gt; &#39;K&#39;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-123">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+            <mxGeometry y="318.3170002151275" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getCol()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-124">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+            <mxGeometry y="426.89172254913154" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getRow()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-125">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+            <mxGeometry y="392.9636943801175" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setRow(int row)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-126">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+            <mxGeometry y="460.81975071814577" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setRow(int row)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-127">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+            <mxGeometry y="494.74777888715965" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setCol(int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-128">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-107">
+            <mxGeometry y="528.6758070561737" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-131" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EIkv0QK46XL0pL5vTjjJ-82" target="EIkv0QK46XL0pL5vTjjJ-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1180" y="1014" as="sourcePoint" />
+            <mxPoint x="1400" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-133" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EIkv0QK46XL0pL5vTjjJ-108" target="EIkv0QK46XL0pL5vTjjJ-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1180" y="1014" as="sourcePoint" />
+            <mxPoint x="1440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-134" value="" style="html=1;whiteSpace=wrap;container=1;resizeWidth=0;resizeHeight=1;resizable=1;enumerate=0;imageAspect=1;recursiveResize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1220" y="1124" width="280" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-135" value="Knight(sub)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+          <mxGeometry width="280" height="40.097808313294415" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-136" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+          <mxGeometry y="40.093896713615024" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;public Knight(int row, int col, Strategy strategy, ChessBoard chessBoardClass)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-137">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;resizable=0;collapsible=1;recursiveResize=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+            <mxGeometry y="46.885862068965515" width="280" height="42.748275862068965" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-138" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+          <mxGeometry y="80.80924882629111" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;int row;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-139">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+            <mxGeometry y="87.59514084507045" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;int col;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-140">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+            <mxGeometry y="121.5246009389672" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected&amp;nbsp; &lt;/font&gt;ChessBoard chessBoardClass;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-141">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+            <mxGeometry y="155.45406103286396" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;final Strategy strategy;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-142">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+            <mxGeometry y="189.38352112676057" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;final PieceColor pieceColor;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-143">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+            <mxGeometry y="223.31298122065738" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;PieceStrategy pieceStrategy;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-144">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+            <mxGeometry y="257.24244131455407" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-145" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+          <mxGeometry y="284.3860093896716" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;PieceColor getPieceColor()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-146">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+            <mxGeometry y="359.0327205370589" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void move(int row, int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-147">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+            <mxGeometry y="291.16868633182764" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-148" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+          <mxGeometry y="352.2499208584844" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-149" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+          <mxGeometry y="318.3140375586857" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;char getLetter() -&amp;gt; &#39;N&#39;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-150">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+            <mxGeometry y="318.3170002151275" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getCol()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-151">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+            <mxGeometry y="426.89172254913154" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getRow()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-152">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+            <mxGeometry y="392.9636943801175" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setRow(int row)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-153">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+            <mxGeometry y="460.81975071814577" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setRow(int row)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-154">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+            <mxGeometry y="494.74777888715965" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setCol(int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-155">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-134">
+            <mxGeometry y="528.6758070561737" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-156" value="" style="html=1;whiteSpace=wrap;container=1;resizeWidth=0;resizeHeight=1;resizable=1;enumerate=0;imageAspect=1;recursiveResize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1580" y="1134" width="280" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-157" value="Pawn(sub)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+          <mxGeometry width="280" height="40.097808313294415" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-158" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+          <mxGeometry y="40.093896713615024" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;public Pawn(int row, int col, Strategy strategy, ChessBoard chessBoardClass)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-159">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;resizable=0;collapsible=1;recursiveResize=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+            <mxGeometry y="46.885862068965515" width="280" height="42.748275862068965" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-160" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+          <mxGeometry y="80.80924882629111" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;int row;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-161">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+            <mxGeometry y="87.59514084507045" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;int col;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-162">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+            <mxGeometry y="121.5246009389672" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected&amp;nbsp; &lt;/font&gt;ChessBoard chessBoardClass;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-163">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+            <mxGeometry y="155.45406103286396" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;final Strategy strategy;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-164">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+            <mxGeometry y="189.38352112676057" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;final PieceColor pieceColor;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-165">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+            <mxGeometry y="223.31298122065738" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;PieceStrategy pieceStrategy;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-166">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+            <mxGeometry y="257.24244131455407" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-167" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+          <mxGeometry y="284.3860093896716" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;PieceColor getPieceColor()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-168">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+            <mxGeometry y="359.0327205370589" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void move(int row, int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-169">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+            <mxGeometry y="291.16868633182764" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-170" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+          <mxGeometry y="352.2499208584844" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-171" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+          <mxGeometry y="318.3140375586857" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;char getLetter() -&amp;gt; &#39;P&#39;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-172">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+            <mxGeometry y="318.3170002151275" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getCol()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-173">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+            <mxGeometry y="426.89172254913154" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getRow()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-174">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+            <mxGeometry y="392.9636943801175" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setRow(int row)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-175">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+            <mxGeometry y="460.81975071814577" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setRow(int row)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-176">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+            <mxGeometry y="494.74777888715965" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setCol(int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-177">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-156">
+            <mxGeometry y="528.6758070561737" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-178" value="" style="html=1;whiteSpace=wrap;container=1;resizeWidth=0;resizeHeight=1;resizable=1;enumerate=0;imageAspect=1;recursiveResize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1918" y="1134" width="280" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-179" value="Queen(sub)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+          <mxGeometry width="280" height="40.097808313294415" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-180" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+          <mxGeometry y="40.093896713615024" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;public Queen(int row, int col, Strategy strategy, ChessBoard chessBoardClass)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-181">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;resizable=0;collapsible=1;recursiveResize=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+            <mxGeometry y="46.885862068965515" width="280" height="42.748275862068965" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-182" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+          <mxGeometry y="80.80924882629111" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;int row;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-183">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+            <mxGeometry y="87.59514084507045" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;int col;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-184">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+            <mxGeometry y="121.5246009389672" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected&amp;nbsp; &lt;/font&gt;ChessBoard chessBoardClass;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-185">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+            <mxGeometry y="155.45406103286396" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;final Strategy strategy;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-186">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+            <mxGeometry y="189.38352112676057" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;final PieceColor pieceColor;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-187">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+            <mxGeometry y="223.31298122065738" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;PieceStrategy pieceStrategy;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-188">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+            <mxGeometry y="257.24244131455407" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-189" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+          <mxGeometry y="284.3860093896716" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;PieceColor getPieceColor()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-190">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+            <mxGeometry y="359.0327205370589" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void move(int row, int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-191">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+            <mxGeometry y="291.16868633182764" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-192" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+          <mxGeometry y="352.2499208584844" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-193" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+          <mxGeometry y="318.3140375586857" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;char getLetter() -&amp;gt; &#39;Q&#39;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-194">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+            <mxGeometry y="318.3170002151275" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getCol()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-195">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+            <mxGeometry y="426.89172254913154" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getRow()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-196">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+            <mxGeometry y="392.9636943801175" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setRow(int row)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-197">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+            <mxGeometry y="460.81975071814577" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setRow(int row)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-198">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+            <mxGeometry y="494.74777888715965" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setCol(int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-199">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-178">
+            <mxGeometry y="528.6758070561737" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-200" value="" style="html=1;whiteSpace=wrap;container=1;resizeWidth=0;resizeHeight=1;resizable=1;enumerate=0;imageAspect=1;recursiveResize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2250" y="1144" width="280" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-201" value="Rook(sub)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+          <mxGeometry width="280" height="40.097808313294415" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-202" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+          <mxGeometry y="40.093896713615024" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;public Rook(int row, int col, Strategy strategy, ChessBoard chessBoardClass)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-203">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;resizable=0;collapsible=1;recursiveResize=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+            <mxGeometry y="46.885862068965515" width="280" height="42.748275862068965" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-204" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+          <mxGeometry y="80.80924882629111" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;int row;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-205">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+            <mxGeometry y="87.59514084507045" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;int col;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-206">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+            <mxGeometry y="121.5246009389672" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected&amp;nbsp; &lt;/font&gt;ChessBoard chessBoardClass;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-207">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+            <mxGeometry y="155.45406103286396" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;final Strategy strategy;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-208">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+            <mxGeometry y="189.38352112676057" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;final PieceColor pieceColor;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-209">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+            <mxGeometry y="223.31298122065738" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;PieceStrategy pieceStrategy;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-210">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+            <mxGeometry y="257.24244131455407" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-211" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+          <mxGeometry y="284.3860093896716" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;PieceColor getPieceColor()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-212">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+            <mxGeometry y="359.0327205370589" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void move(int row, int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-213">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+            <mxGeometry y="291.16868633182764" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-214" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+          <mxGeometry y="352.2499208584844" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-215" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+          <mxGeometry y="318.3140375586857" width="280" height="6.785892018779345" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;char getLetter() -&amp;gt; &#39;R&#39;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-216">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+            <mxGeometry y="318.3170002151275" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getCol()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-217">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+            <mxGeometry y="426.89172254913154" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;int getRow()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-218">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+            <mxGeometry y="392.9636943801175" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setRow(int row)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-219">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+            <mxGeometry y="460.81975071814577" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setRow(int row)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-220">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+            <mxGeometry y="494.74777888715965" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void setCol(int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-221">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-200">
+            <mxGeometry y="528.6758070561737" width="280" height="33.92946009389671" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-222" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EIkv0QK46XL0pL5vTjjJ-135" target="EIkv0QK46XL0pL5vTjjJ-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1390" y="1034" as="sourcePoint" />
+            <mxPoint x="1460" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-223" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EIkv0QK46XL0pL5vTjjJ-157" target="EIkv0QK46XL0pL5vTjjJ-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1770" y="884" as="sourcePoint" />
+            <mxPoint x="1450" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-224" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EIkv0QK46XL0pL5vTjjJ-179" target="EIkv0QK46XL0pL5vTjjJ-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2200" y="904" as="sourcePoint" />
+            <mxPoint x="1450.000000000001" y="1084" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-225" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EIkv0QK46XL0pL5vTjjJ-201" target="EIkv0QK46XL0pL5vTjjJ-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2330" y="1093.9999999999995" as="sourcePoint" />
+            <mxPoint x="1450" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-226" value="" style="html=1;whiteSpace=wrap;recursiveResize=1;container=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1980" y="-260" width="310" height="390" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void useStrategy(Piece piece, int row, int col, Piece[][] chessBoard);" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-227">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-226">
+            <mxGeometry y="86.77" width="310" height="46.8" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-228" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-226">
+          <mxGeometry y="80" width="310" height="6.77" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-229" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-226">
+          <mxGeometry y="126.8" width="310" height="6.77" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-230" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-226">
+          <mxGeometry y="40" width="310" height="6.77" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-231" value="AtomicStrategy(sub)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;autosize=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-226">
+          <mxGeometry width="310" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;boolean move(Piece piece, int row, int col, ArrayList&amp;lt;int[]&amp;gt; allPossibleMoves, Piece[][] chessBoard)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-232">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-226">
+            <mxGeometry y="46.15" width="310" height="33.85" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-234" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EIkv0QK46XL0pL5vTjjJ-231" target="EIkv0QK46XL0pL5vTjjJ-56">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1500" y="-360" as="sourcePoint" />
+            <mxPoint x="-1690" y="-460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-235" value="" style="html=1;whiteSpace=wrap;recursiveResize=1;container=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1570" y="-260" width="310" height="390" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;void useStrategy(Piece piece, int row, int col, Piece[][] chessBoard);" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-236">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-235">
+            <mxGeometry y="86.77" width="310" height="46.8" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-237" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-235">
+          <mxGeometry y="80" width="310" height="6.77" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-238" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-235">
+          <mxGeometry y="126.8" width="310" height="6.77" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-239" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-235">
+          <mxGeometry y="40" width="310" height="6.77" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-240" value="NormalStrategy(sub)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;autosize=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-235">
+          <mxGeometry x="25" width="260" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="+&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;boolean move(Piece piece, int row, int col, ArrayList&amp;lt;int[]&amp;gt; allPossibleMoves, Piece[][] chessBoard)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-241">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-235">
+            <mxGeometry y="46.15" width="310" height="33.85" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-242" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EIkv0QK46XL0pL5vTjjJ-240" target="EIkv0QK46XL0pL5vTjjJ-56">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1320" y="-300" as="sourcePoint" />
+            <mxPoint x="-1290" y="-430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-243" value="" style="html=1;whiteSpace=wrap;container=1;recursiveResize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2780" y="-1300" width="350" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-244" value="PieceStrategy (abstract)" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+          <mxGeometry width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-246" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+          <mxGeometry y="40" width="350" height="7.9" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;PieceStrategy(Piece piece, ChessBoard chessBoardClass)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-247">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+            <mxGeometry y="47.9" width="350" height="39.49" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected final &lt;/font&gt;Piece piece;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-248">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+            <mxGeometry y="95.29" width="350" height="39.49" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-249" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+          <mxGeometry y="87.3900000000001" width="350" height="7.9" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected final &lt;/font&gt;ChessBoard chessBoardClass;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-250">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+            <mxGeometry y="134.78000000000003" width="350" height="39.49" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;PieceColor turn;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-251">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+            <mxGeometry y="174.27000000000004" width="350" height="39.49" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;Piece[][] chessBoard;" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-252">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+            <mxGeometry y="213.76000000000005" width="350" height="39.49" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-253" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+          <mxGeometry y="253.2500000000001" width="350" height="7.9" as="geometry" />
+        </mxCell>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#00ff00&quot;&gt;public &lt;/font&gt;&lt;font color=&quot;#ea6b66&quot;&gt;abstract &lt;/font&gt;ArrayList&amp;lt;int[]&amp;gt; getAllPossibleMoves();" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-254">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+            <mxGeometry y="260.00000000000006" width="350" height="39.49" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;boolean isInChessBoard(int row, int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-255">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+            <mxGeometry y="299.49000000000007" width="350" height="39.49" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ea6b66&quot;&gt;protected &lt;/font&gt;boolean isChecked(int row, int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-256">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+            <mxGeometry y="338.9800000000001" width="350" height="39.49" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;private &lt;/font&gt;Piece move(int row, int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-257">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+            <mxGeometry y="378.4700000000001" width="350" height="39.49" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;private &lt;/font&gt;void reverseMove(Piece takenPiece, int row, int col)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-258">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+            <mxGeometry y="417.9600000000001" width="350" height="39.49" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;private &lt;/font&gt;boolean checkAngle(int rowIncrease, int colIncrease, int[] locOfKing, AngleType angleType)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-259">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+            <mxGeometry y="457.4500000000001" width="350" height="39.49" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;private &lt;/font&gt;int[] getLocOfKing()" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-260">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+            <mxGeometry y="504.8400000000001" width="350" height="39.49" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;private &lt;/font&gt;boolean isAttackedByKnight(int[] locOfKing)" placeholders="1" name="Variable" id="EIkv0QK46XL0pL5vTjjJ-278">
+          <mxCell style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontColor=#ffffff;strokeWidth=1;perimeterSpacing=1;autosize=0;container=0;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+            <mxGeometry y="544.3300000000002" width="350" height="39.49" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-279" value="" style="line;strokeWidth=3;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="EIkv0QK46XL0pL5vTjjJ-243">
+          <mxGeometry y="496.94000000000017" width="350" height="7.9" as="geometry" />
+        </mxCell>
+        <mxCell id="EIkv0QK46XL0pL5vTjjJ-280" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="EIkv0QK46XL0pL5vTjjJ-14" target="EIkv0QK46XL0pL5vTjjJ-244">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
