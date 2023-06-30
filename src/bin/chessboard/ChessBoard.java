@@ -4,7 +4,7 @@ import bin.piece.*;
 import bin.strategy.AtomicStrategy;
 import bin.strategy.NormalStrategy;
 import bin.strategy.Strategy;
-
+//Hi
 public class ChessBoard {
     private final Piece[][] chessBoard = new Piece[8][8];
     private PieceColor turn;
